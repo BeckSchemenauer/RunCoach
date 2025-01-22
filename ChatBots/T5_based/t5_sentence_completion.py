@@ -5,6 +5,8 @@ import pandas as pd
 import nltk
 import torch
 
+torch.cuda.empty_cache()
+
 print("Device:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
 
 nltk.download('punkt_tab')
