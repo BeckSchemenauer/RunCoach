@@ -1,0 +1,7 @@
+/Data/
+/ChatBots/T5_based/ted-talks/
+/QuestionClassifier/intent_model/
+/running_specific/InfoExtractor/brand_NER/bilstm_model.pth
+/running_specific/InfoExtractor/activity_details/bilstm_model.pth
+/running_specific/bulk_strava/
+/ChatBots/T5_based/t5-finetuned/

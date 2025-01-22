@@ -1,0 +1,2497 @@
+[
+    {
+        "sentence": "I ran a 2.5 miles jog for 15 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "I cycle for 8.5 kilometers at a pace of 8:30 minutes per mile",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I did a 2.5 miles hike in 135 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I went for 95 minutes for 6.5 miles",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "I ran for 55 minutes at a 4:30 minutes per mile pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 95 minutes at a 3:00 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I completed for a 7.0 mile run for 5 hours.",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 10 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 6:00 minute per kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 2:30 minute per kilometer pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 6.5 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 5.0 meter.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 5.0 miles.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 3.0 meter.It was 3.0 meter.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I did a 3.0 meter swim for 45 hours",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "I run for 4.0 kilometers at a pace of 8:00 minutes per mile",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I did a 0.0 meters run in 120 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I finished for 20 minutes for 6.5 miles",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "I did for 130 hours at a 6:00 minutes per mile pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I did for 20 minutes at a 9:00 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I cycled for a 9.0 mile ride for 95 minutes.",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 135 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 8:00 minute per kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 6:30 minute per mile pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 6.0 miles.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 9.0 mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 2.5 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 9.0 meter.It was 9.0 meter.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran a 11.5 kilometer run for 90 hours",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "I run for 9.5 kilometers at a pace of 6:00 minutes per kilometer",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I ran a 3.5 kilometers ride in 85 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I did for 100 hours for 5.0 mile",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "I swam for 125 minutes at a 6:00 minutes per mile pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 30 minutes at a 5:30 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for a 14.5 kilometers bike for 10 minutes.",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 120 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 9:00 minute per mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 4:00 minute per mile pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 6.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 5.5 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 9.0 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 7.5 kilometers.It was 7.5 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I swam a 4.0 mile run for 135 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "I run for 2.5 kilometers at a pace of 7:00 minutes per mile",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I ran a 4.0 kilometers hike in 25 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 85 minutes over 14.5 miles",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "I did for 60 minutes at a 7:00 minutes per mile pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I went for 90 hours at a 9:00 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for a 5.0 kilometers run for 70 minutes.",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 80 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 7:00 minute per mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 6:00 minute per kilometer pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 8.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 4.0 kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 9.5 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 9.0 meter.It was 9.0 meter.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I did a 5.5 mile jog for 80 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "I run for 7.0 meter at a pace of 9:00 minutes per mile",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I went a 4.0 kilometers run in 15 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 145 minutes for 7.5 mile",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "I ran for 5 minutes at a 7:00 minutes per kilometer pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 100 minutes at a 6:30 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I did for a 8.0 kilometers jog for 35 minutes.",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 30 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 6:00 minute per mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 5:30 minute per kilometer pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 3.0 meter.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 8.5 meters.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 10.5 miles.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 5.0 miles.It was 5.0 miles.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I swim for 2.5 mile at a pace of 3:00 minutes per mile",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "It took me 80 hours.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 2.5 mile.It was 2.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I went a 9.5 meters run in 15 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I did a 4.0 meters run in 65 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I hike for 10.0 meters at a pace of 7:00 minutes per kilometer",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I ran for 8.5 miles.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 30 minutes at a 8:00 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I completed a 2.5 mile swim in 60 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 75 minutes over 7.0 kilometer",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "It was at 3:30 minute per kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 8:30 minute per mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 9:30 minute per mile pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 10.5 miles.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 140 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 3.0 kilometers.It was 3.0 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 5.0 mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I swim for 9.5 meter at a pace of 5:00 minutes per kilometer",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I swam for 85 minutes at a 3:30 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 4.5 meters.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I finished for 75 hours at a 8:30 minutes per mile pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 85 hours at a 4:00 minutes per mile pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 7.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 2:00 minute per mile pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 80 minutes at a 7:30 minutes per kilometer pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 9:00 minute per mile pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 110 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 40 minutes at a 5:00 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 65 hours.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 5.0 miles.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 7.0 meter.It was 7.0 meter.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 8.0 miles.It was 8.0 miles.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 9.5 miles.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 7.5 mile.It was 7.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 8:30 minute per mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 6.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I did a 6.0 kilometer cycle in 50 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran a 8.0 mile jog for 20 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "It was 7.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I finished a 7.5 miles run in 120 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 7:00 minute per kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran a 6.5 kilometer run for 120 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "I ran 2.5 kilometer.It was 2.5 kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 7.0 meters.It was 7.0 meters.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 2:00 minute per mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 6:00 minute per mile pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 70 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 6:00 minute per kilometer pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 9.0 meters.It was 9.0 meters.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I run for 9.5 mile at a pace of 2:00 minutes per kilometer",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I cycle for 9.0 miles at a pace of 6:30 minutes per kilometer",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I ran for 5.0 kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 2.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran a 0.0 miles run in 140 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran a 7.0 mile run in 45 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran a 8.5 kilometers run for 45 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "I finished for a 7.5 miles run for 135 hours.",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I cycled for a 9.5 kilometer run for 50 minutes.",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I finished for 145 minutes for 6.0 mile",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "I completed for 105 minutes at a 2:00 minutes per mile pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 6:30 minute per kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 7.0 meter.It was 7.0 meter.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I run for 5.0 kilometer at a pace of 8:30 minutes per kilometer",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I ran 9.0 kilometers.It was 9.0 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 5:30 minute per mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 4:30 minute per mile pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 8.5 miles.It was 8.5 miles.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 5.0 kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 2.5 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at 5:00 minute per kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 4.5 mile.It was 4.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I cycled for 55 minutes for 6.5 mile",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "I swim for 9.0 miles at a pace of 2:00 minutes per kilometer",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I ran for 9.0 miles.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I swam for 90 minutes for 11.0 miles",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "I run for 10.5 miles at a pace of 9:00 minutes per mile",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    },
+    {
+        "sentence": "I ran for a 4.0 kilometer bike for 25 minutes.",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I finished for 125 minutes at a 9:30 minutes per mile pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 8.0 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 105 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 4.5 kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 25 minutes at a 8:00 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 5 minutes over 4.0 miles",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "I cycled for 5 minutes at a 5:30 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran a 8.5 kilometer swim in 50 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 15 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I completed a 6.0 mile run in 135 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 7.5 meters.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 7:00 minute per kilometer pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 0.0 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I did a 9.5 miles hike in 40 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I did for 105 minutes at a 4:00 minutes per mile pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I did a 9.5 mile bike for 80 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "It was at a 4:00 minute per mile pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for a 9.0 miles bike for 35 minutes.",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was 6.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 9.0 mile.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 3.0 miles.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 7.5 mile.It was 7.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I completed a 8.5 meters swim for 75 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "I swam for 55 minutes at a 3:30 minutes per kilometer pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I cycled a 10.0 miles cycle in 100 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 9.0 miles.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran a 6.0 miles hike in 75 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 5 hours for 8.0 meters",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "distance",
+            "unit"
+        ]
+    },
+    {
+        "sentence": "I ran for 7.5 kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I completed for 105 hours at a 7:30 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I cycled a 9.0 kilometer jog in 85 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran 6.5 mile.It was 6.5 mile.",
+        "labels": [
+            "none",
+            "none",
+            "distance",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 65 hours at a 4:30 minutes per mile pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 9.0 kilometers.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 9:00 minute per kilometer pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran a 10.0 meter jog for 90 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "time-unit"
+        ]
+    },
+    {
+        "sentence": "I completed for 10 minutes at a 7:00 minute pace",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "time",
+            "time-unit",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran a 7.0 meters run in 25 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 55 minutes.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 11.0 kilometer.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It was at a 6:00 minute per kilometer pace.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit",
+            "none"
+        ]
+    },
+    {
+        "sentence": "It took me 115 hours.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I cycled a 9.0 kilometers swim in 75 minutes",
+        "labels": [
+            "none",
+            "method",
+            "none",
+            "distance",
+            "unit",
+            "activity",
+            "none",
+            "time",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I ran for 2.5 miles.",
+        "labels": [
+            "none",
+            "none",
+            "none",
+            "distance",
+            "none"
+        ]
+    },
+    {
+        "sentence": "I run for 9.0 miles at a pace of 3:00 minutes per kilometer",
+        "labels": [
+            "none",
+            "activity",
+            "none",
+            "distance",
+            "unit",
+            "none",
+            "none",
+            "none",
+            "none",
+            "pace",
+            "none",
+            "none",
+            "pace-unit"
+        ]
+    }
+]
