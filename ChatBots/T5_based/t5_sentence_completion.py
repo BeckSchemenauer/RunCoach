@@ -7,6 +7,8 @@ import torch
 
 print("Device:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
 
+nltk.download('punkt_tab')
+
 # Initialize model and tokenizer
 model_name = 't5-base'
 model = T5ForConditionalGeneration.from_pretrained(model_name)
