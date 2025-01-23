@@ -12,27 +12,46 @@ model_name = 'facebook/bart-base'
 model = BartForConditionalGeneration.from_pretrained(model_name)
 tokenizer = BartTokenizer.from_pretrained(model_name)
 
-# Load dataset
-df = pd.read_csv("ted-talks/transcripts.csv")
-sentences = df['transcript'].dropna().tolist()
 
-# Tokenize sentences into individual ones
-processed_sentences = []
-for talk in sentences:
-    processed_sentences.extend(nltk.sent_tokenize(talk))
+# Function to process and get random sentences from a source
+def get_random_sentences_from_source(source, is_csv=False, column_name=None, num_sentences=512):
+    if is_csv:
+        # Load sentences from CSV
+        df = pd.read_csv(source)
+        sentences = df[column_name].dropna().tolist()
+    else:
+        # Load sentences from .txt file
+        with open(source, "r", encoding="utf-8") as f:
+            sentences = nltk.sent_tokenize(f.read())
 
-# Limit to 1000 sentences
-processed_sentences = processed_sentences[:512]
+    # Tokenize sentences and shuffle
+    tokenized_sentences = []
+    for text in sentences:
+        tokenized_sentences.extend(nltk.sent_tokenize(text))
+
+    random.shuffle(tokenized_sentences)
+    return tokenized_sentences[:num_sentences]
+
+
+# Get random sentences from TED Talks and new file
+processed_sentences_ted = get_random_sentences_from_source("ted-talks/transcripts.csv", is_csv=True,
+                                                           column_name="transcript", num_sentences=512)
+processed_sentences_hadds = get_random_sentences_from_source("hadds_approach.txt", is_csv=False, num_sentences=512)
+
+# Combine TED Talks and new file sentences
+processed_sentences = processed_sentences_ted + processed_sentences_hadds
+
 
 # Create rough sentences
-def create_rough_sentence(sentence, delete_probability=0.3):
+def create_rough_sentence(sentence, delete_probability=0.2):
     words = sentence.split()
     rough_sentence = [word for word in words if random.random() > delete_probability]
     return ' '.join(rough_sentence)
 
+
 # Tokenization function
 def tokenize_data(examples):
-    input_text = ["paraphrase this: " + rough for rough in examples['rough']]
+    input_text = ["incomplete sentence: " + rough for rough in examples['rough']]
     target_text = examples['complete']
 
     input_encodings = tokenizer(input_text, truncation=True, padding='max_length', max_length=128)
@@ -48,6 +67,7 @@ def tokenize_data(examples):
         'attention_mask': input_encodings['attention_mask'],
         'labels': target_encodings['labels']
     }
+
 
 # Generate dataset
 rough_sentences = [create_rough_sentence(sentence) for sentence in processed_sentences]
@@ -65,13 +85,13 @@ eval_dataset = eval_dataset.map(tokenize_data, batched=True)
 training_args = TrainingArguments(
     output_dir='./results',
     dataloader_pin_memory=True,
-    num_train_epochs=5,
-    per_device_train_batch_size=16,
-    per_device_eval_batch_size=16,
+    num_train_epochs=4,
+    per_device_train_batch_size=32,
+    per_device_eval_batch_size=32,
     warmup_steps=500,
     weight_decay=0.01,
     evaluation_strategy="epoch",
-    learning_rate=5e-5,
+    learning_rate=5e-4,
     fp16=True
 )
 
