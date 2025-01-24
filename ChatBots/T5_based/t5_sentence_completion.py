@@ -13,7 +13,7 @@ model = T5ForConditionalGeneration.from_pretrained(model_name)
 tokenizer = T5Tokenizer.from_pretrained(model_name)
 
 # Load dataset
-df = pd.read_csv("ted-talks/transcripts.csv")
+df = pd.read_csv("../BART_based/ted-talks/transcripts.csv")
 sentences = df['transcript'].dropna().tolist()
 
 # Tokenize sentences into individual ones

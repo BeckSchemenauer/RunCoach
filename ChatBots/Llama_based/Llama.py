@@ -18,39 +18,23 @@ print(f"Model is loaded on: {device}")
 
 # Global context for every query
 GLOBAL_CONTEXT = (
-    "Alter the following to make a complete sentence."
+    "Make the sentence a complete sentence and make it more polite."
 )
 
 
-# Placeholder intermediate function
-def intermediate_function(user_input):
-    """
-    Processes user input to generate a standardized question and specific context.
-
-    Args:
-        user_input (str): The user's latest question or statement.
-
-    Returns:
-        tuple: A standardized question (str) and specific context (list of strings).
-    """
-    standardized_question = "run a 2 mile tempo, then do 4x200m sprints"
-    return standardized_question
-
-
 # Prepare LLaMA input
-def prepare_llama_input(standardized_question):
+def prepare_llama_input(user_input):
     """
     Prepares the LLaMA input string from the standardized question
 
     Args:
-        standardized_question (str): The standardized question for LLaMA.
+        user_input (str): The standardized question for LLaMA.
     Returns:
         str: The input string for LLaMA.
     """
 
     llama_input = (
-        f"{GLOBAL_CONTEXT}: {standardized_question}\n"
-        f"Ask the user a question based on your statement."
+        f"{GLOBAL_CONTEXT}: {user_input}\n"
     )
     return llama_input
 
@@ -89,11 +73,9 @@ def chat_with_llama():
             print("Goodbye!")
             break
 
-        # Step 2: Generate standardized question and specific context
-        standardized_question = intermediate_function(user_input)
 
         # Step 3: Prepare LLaMA input
-        llama_input = prepare_llama_input(standardized_question)
+        llama_input = prepare_llama_input(user_input)
 
         # Step 4: Tokenize input for LLaMA
         inputs = tokenizer(llama_input, return_tensors="pt").to(device)

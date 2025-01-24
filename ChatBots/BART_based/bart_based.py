@@ -5,13 +5,12 @@ import pandas as pd
 import nltk
 import torch
 
-nltk.download('punkt')
+#nltk.download('punkt')
 
 # Initialize model and tokenizer
 model_name = 'facebook/bart-base'
 model = BartForConditionalGeneration.from_pretrained(model_name)
 tokenizer = BartTokenizer.from_pretrained(model_name)
-
 
 # Function to process and get random sentences from a source
 def get_random_sentences_from_source(source, is_csv=False, column_name=None, num_sentences=512):
@@ -31,15 +30,6 @@ def get_random_sentences_from_source(source, is_csv=False, column_name=None, num
 
     random.shuffle(tokenized_sentences)
     return tokenized_sentences[:num_sentences]
-
-
-# Get random sentences from TED Talks and new file
-processed_sentences_ted = get_random_sentences_from_source("ted-talks/transcripts.csv", is_csv=True,
-                                                           column_name="transcript", num_sentences=512)
-processed_sentences_hadds = get_random_sentences_from_source("hadds_approach.txt", is_csv=False, num_sentences=512)
-
-# Combine TED Talks and new file sentences
-processed_sentences = processed_sentences_ted + processed_sentences_hadds
 
 
 # Create rough sentences
@@ -69,6 +59,14 @@ def tokenize_data(examples):
     }
 
 
+# Get random sentences from TED Talks and new file
+processed_sentences_ted = get_random_sentences_from_source("ted-talks/transcripts.csv", is_csv=True,
+                                                           column_name="transcript", num_sentences=256)
+processed_sentences_hadds = get_random_sentences_from_source("hadds_approach.txt", is_csv=False, num_sentences=512)
+
+# Combine TED Talks and new file sentences
+processed_sentences = processed_sentences_ted + processed_sentences_hadds
+
 # Generate dataset
 rough_sentences = [create_rough_sentence(sentence) for sentence in processed_sentences]
 train_data = [{'rough': rough, 'complete': complete} for rough, complete in zip(rough_sentences, processed_sentences)]
@@ -83,7 +81,6 @@ eval_dataset = eval_dataset.map(tokenize_data, batched=True)
 
 # Training arguments
 training_args = TrainingArguments(
-    output_dir='./results',
     dataloader_pin_memory=True,
     num_train_epochs=4,
     per_device_train_batch_size=32,
