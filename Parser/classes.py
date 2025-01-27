@@ -40,7 +40,7 @@ class User:
 
 
 class Input:
-    def __init__(self, activity, intent, gear, other):
+    def __init__(self, activity=None, intent=None, gear=None, other=None):
         """
         Initializes an Input object.
         :param activity: An Activity object
@@ -55,9 +55,3 @@ class Input:
         self.intent = intent
         self.gear = gear
         self.other = other
-
-        # Validate other dictionary keys
-        required_keys = ['name', 'height', 'weight', 'sex']
-        for key in required_keys:
-            if key not in self.other:
-                raise ValueError(f"Missing required key in 'other': {key}")
