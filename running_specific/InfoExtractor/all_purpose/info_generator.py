@@ -89,7 +89,7 @@ replacement_dict = {
     "_generative-word_": ["Create", "Give", "Generate", "Suggest", "Formulate", "Provide", "Design"],
     "_exercise-type_": ["training", "running", "lifting", "swimming", "plyometric", "interval", "crossfit", "endurance"],
     "_plan_": ["plan", "schedule", "regime", "routine", "program", "strategy", "calendar"],
-    "_event_": ["400m", "800m", "1500m", "3k", "5k", "10k", "half-marathon", "marathon", "ultramarathon", "triathlon", "ironman"],
+    "_event_": ["400 m", "400 meter", "800 m", "800 meter", "1500 m", "1500 meter", "3 k", "5 k", "10 k", "half marathon", "full marathon"],
     "_recommender_": ["Give me", "What is", "What are", "Suggest a", "Recommend me", "Provide a", "Tell me"],
     "_train_": ["train", "prepare", "practice", "condition", "workout", "build", "focus"],
     "_track_": ["track", "monitor", "record", "measure", "check", "log", "analyze"]
@@ -108,7 +108,7 @@ placeholder_labels = {
     "_for_": "none",
     "_event_": "event",
     "_event_attribute_": "event-attribute",
-    "_recommender_": "none", # so I can add one more none token since they're all two words
+    "_recommender_": "none",  # so I can add one more none token since they're all two words
     "_modify_": "modify",
     "_attribute_": "attribute",
     "_running-gear_": "running-gear",
@@ -146,11 +146,13 @@ for _ in range(4096):
         if token in placeholder_labels:
             label = placeholder_labels[token]
             labels.append(label)
-            if label == "pace":
+            if token == "_pace_":
                 labels.append("none")
                 labels.append(label)
             if token == "_recommender_":
                 labels.append("none")
+            if token == "_event_":
+                labels.append("event")
         else:
             labels.append("none")  # Assign 'none' to static words
 
