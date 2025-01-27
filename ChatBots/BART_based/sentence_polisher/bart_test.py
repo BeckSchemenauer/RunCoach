@@ -1,8 +1,8 @@
 from transformers import BartTokenizer, BartForConditionalGeneration
 
 # Load the fine-tuned model and tokenizer
-model = BartForConditionalGeneration.from_pretrained('../expander/bart-expander-finetuned')
-tokenizer = BartTokenizer.from_pretrained('../expander/bart-expander-finetuned')
+model = BartForConditionalGeneration.from_pretrained('bart-finetuned')
+tokenizer = BartTokenizer.from_pretrained('bart-finetuned')
 
 def generate_complete_sentence(rough_sentence):
     # Tokenize and generate

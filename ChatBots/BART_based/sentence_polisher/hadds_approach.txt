@@ -1,0 +1,866 @@
+Hadd’s Approach to Distance Training
+Part I
+Let’s start from the very beginning. A male (or female) approaches me for training. It could be
+you. (If I use he/she in the following posts in this thread, please note that either of them apply
+equally well to both sexes. What I am saying works for male and females.)
+Now I am not a college coach, only used to young studs aged 18 years and up. Which is good,
+because I get to see a wide spectrum of runners, many of them past-30 and wanting to get back
+into it again. This has allowed me to gain experience of coaching all ages and all fitness levels
+and gives me wider knowledge of heart rates (HR) (and not find, as with teenagers, that
+everyone’s HRmax is simply, "over-200"). Note that many on Letsrun fall into this category,
+wanting to get back in the saddle and work to improve their times in their 30s and 40s…
+Yet I do coach young kids; youngest boy and girl 15 years old, then 17-18 and on up to early
+20s… So some of this might in places apply to teenagers. (Having said that, if you are already
+getting coached, I would recommend that you do what your coach tells you, and don't chop and
+change ideas with every book/schedule you read. You cannot beat consistency over time.)
+So, a male or female approaches me… I generally want to know some background before
+agreeing to take them on. Usually I ask for recent race performances. But I am not just looking
+at the times here, more importantly I want to see the relationship between the race times and
+distances.
+I may get numbers for events like this:
+From a young runner; 400m, 800m, 1500m, 5k (maybe)
+From an older (road) runner; 5k (maybe), 10k, HM and marathon (maybe)
+Right away I’m really looking to see what’s wrong. (If there is nothing “wrong”, there will be a
+limited amount I can do for the guy). Not what is wrong with the times (eg: they're slow), but
+what is wrong with the relationships between the times a) there may not be a relationship, or b)
+the relationship might be too loose.
+Let’s look at what I mean:
+Here are some times I might receive (all number are actual real-life examples)
+Young runner: 56.x (400), 2.09 (800), 4.37 (1500), 38.30 (10k)
+Older runner: 17.02 (5k), 36.45 (10k), 1.24 (HM), 3.10+ (marathon)
+Many of you will have seen equivalence tables somewhere. Tables that give points per
+performance per distance and allow comparisons between (e.g.) 800m and marathon. The
+Hungarian Tables are one such example. Mercier tables are another.
+But no-one suggests that a single person can be equally good at all distances across the board
+(apart from rarities like Rod Dixon). Your genetic strengths tend to weigh you more in one
+direction (speed) or the other (endurance). So, some people’s performances get better as the race
+gets longer (or shorter). And this is beyond/in excess of a training effect, they are just more
+gifted aerobically (or anaerobically).
+BUT there should still be some form of relationship across distances, and this is what I look for
+when I hear someone’s PR’s.
+Frank Horwill once defined this sort of relationship by saying that if a runner slowed up by 16
+secs/mile at any distance (actually, I believe he said 4 secs per 400m lap), that runner could then
+keep going for twice the distance. (Note that better trained runners slow up LESS than 4 secs per
+lap to go twice the distance…)
+So, according to Horwill, if you can run 5.00 for one mile, you can run at 5.16m/m for 3k/2 miles
+and 5.32m/m for 5k, and 5.48 for 10k, and 6.04 for 10 miles and 6.20 for marathon (plus or
+minus a second here or there). This is what I mean when there should be a “relationship”
+between race performances (assuming good/similar level of training for each event).
+For better-trained runners, the relationship is even tighter. I have coached one runner like the
+example just given; has a 4.59 one mile PR. Who can run 5k at 5.20m/m (instead of Horwill’s
+5.31). And 10k at 5.31, HM at 5.40 and marathon at 5.59m/m (instead of Horwill’s rule of
+thumb 6.20m/m). But this runner’s one mile to 5k distances are seldom trained for, or raced, so
+there might be some secs still to come off of both of them.
+Think of it roughly like a clock face: Your one mile PR should be at 12, your 5k PR pace should
+be at quarter-past (+15 secs), your 10k PR should be at half-past (again, +15 secs), your HM PR
+should be at quarter-to (again + 15 secs), and your marathon PR should be once again at the top
+of the hour. (This also fits in with the old rule of thumb that your marathon PR pace should be
+mile PR pace + 60 secs/mile)
+So what is wrong with our runners above? (remember, Horwill said slow up by 4 secs/lap to go
+twice the distance. We'll use his rule of thumb here.)
+Young runner: 56.x (400), 2.09 (800), 4.37 (1500), 38.30 (10k)
+400m = 56 secs
+800m = 2.09 (should be 2.00 from 400 time)
+1500m = 4.37 (should be 4.00 from 400m time or 4.16 from 800m time)
+10k = 38.30 Fuggedabouddit…
+So, our young guy gets rapidly worse as the race distance increases showing he is poor
+aerobically. Note that he gets worse even on the next distance up, showing how poor his aerobic
+conditioning/capacity is. He has NO relationship between his race performances.
+Older runner: 17.02 (5k), 36.45 (10k), 1.24 (HM), 3.10+ (marathon)
+5k = 17.02 (5.28m/m)
+10k = 36.45 (5.55m/m – should be 5.44m/m from 5k time)
+HM = 1.24 (6.24m/m – should be 6.00m/m from 5k time and 6.11 from 10k time)
+Mar = 3.10 (7.15m/m – should be 6.40 from HM time and 6.27 from 10k time)
+Like our young guy, this runner is also poor aerobically. He too has NO relationship between his
+performances. What we COULD have found is a relationship between 5k-10k-HM but NO
+relationship between HM-marathon (just meaning that he was not as well prepared for the longer
+distance as he was for the HM).
+Now these times are all plus/minus a few seconds, not hard and fast. So we do not need to
+quibble on whether it should be +15 or +17 secs/mile. The point I want to stress is the existence
+of a relationship. I don’t hold hard and fast to Horwill’s 16 secs/mile (as I have shown, for better
+runners it might be 12-15 secs/mile or tighter still). But I do agree with his concept of a
+relationship between performances at all distances. I am always working towards it with runners
+I coach (at least within the range of events in which they wish to be competitive). This
+relationship can tell a lot about how well prepared a particular runner is for a given event.
+Note that there can be two things “wrong” with your PR’s. One, as shown, there can be no
+evidence of a relationship (usually meaning your aerobic ability is wayyyyy poor). Or there can
+be a relationship, but it is too loose (instead of slowing up/adding 16 secs/mile to run double the
+distance, you slow up/add 20-24 secs/mile). In this second instance, your aerobic ability is less
+poor, but still needs work.
+To sum up; if you are well trained aerobically, you do not fall apart (as in the earlier examples)
+when the race gets longer. And here some of you may like to do a quick check and see how your
+own performances compare…
+So, on seeing these, or similar, numbers, I expect to hear at least one (and maybe both) of two
+things from the athlete concerned:
+1. Low mileage background in training
+2. Whatever mileage being done is being run “too fast” (for performance level)
+Part II
+So, if we find that our runner has little or no evidence of a relationship between his/her race
+performances (especially if this is so as the distance gets longer), we can be very sure the
+problem is in his legs.
+If you waded your way through the long thread I referred you to above, you will realize that this
+means the mitochondria, capillaries and aerobic enzymes your training should have created in
+your leg muscles, did not happen. Whatever trainin
+g you have done to this point has not been as effective as it could have been. Usually, I have
+found, for two reasons (as given above):
+1. You don’t run enough mileage.
+2. You train too fast.
+Way back in 1973, physiologist David Costill and his coworkers introduced what they termed,
+the "fractional utilization" of VO2max. Which really just means, how much of their VO2max
+can each runner actually use in a distance event. The argument was made that those who could
+use the greatest fraction (percent) of their VO2max stood every chance of being among the faster
+runners. This "fractional utilization" we now know is basically made up of a runner’s lactate
+threshold (LT) and their particular economy.
+As the authors state, "At all running speeds above 70% VO2max, the faster runners were found
+to accumulate less blood lactate than the slower runners at similar speeds and relative
+percentages of their aerobic capacities. The findings suggest that successful distance running is
+dependent on the economical utilization of a highly developed aerobic capacity and the ability to
+employ a large fraction of that capacity with minimal accumulation of lactic acid."
+Simply put, the more you can use of your maximum aerobic potential in a race, the better you
+will perform.
+As recently as 1997, this paper by Costill was cited by J.A. Hawley et al in a paper aimed at
+enhancing endurance performance.
+As the authors state, "It would appear that the fraction of VO2peak or power than an athlete can
+sustain for prolonged periods is inversely related to the accumulation of lactate in the working
+musculature." (more lactate = lower % VO2max that can be sustained = stop sooner; less lactate
+= higher % VO2max = maintain for longer).
+They go on, "For example, in well-trained endurance athletes, there is little or no increase in
+blood (and presumably muscle) lactate concentration until the work rate elicits close to 85%
+VO2peak. Direct support for this comes from the data of Coetzer et al (1993) who reported that
+black African distance runners had lower blood lactate concentrations after submaximal
+(21km/hr) and maximal (24km/hr) exercise compared with white runners, despite similar running
+economies. Elite Kenyan distance runners have also been found to have lower lactate levels than
+top Scandinavian distance runners during both submaximal and maximal exercise."
+Sooooo. Let’s sum all this up, it’s very simple.
+1. Better trained runners can maintain a higher percentage of their VO2max (85% or higher) in a
+marathon than lesser trained runners.
+2. They can do so because their blood lactate AT ANY PACE or any percentage of VO2max is
+lower than the blood lactate of less well-trained runners (ie: they are not "tougher" and just
+somehow putting up with more discomfort than the runners around them, they are actually more
+"comfortable", under less lactate "stress", than all other runners at the same pace/intensity).
+This also agrees with a large amount of sport science studies which show a very high correlation
+between the lactate threshold and performance in distance events. The higher (faster) the running
+pace at the LT, the faster the pace in distance races.
+Sjodin and Svedenhag (1985) in a review on the physiology of marathon running agreed, "the
+‘threshold’ is the single best predictor of performance in long-distance running, including the
+marathon." Once again, fast pace at LT = fast pace in a distance race.
+As I repeatedly stressed in my long earlier thread, the training to improve your VO2max
+(essentially the stroke volume of your heart) is NOT the same training as that required to raise
+your LT (increase capillaries, mitochondria and aerobic enzymes in your muscles). The speeds
+required are totally different. LT training is one case in which faster is NOT better.
+So. To go back to our hypothetical runner. After I find out the PR’s of the runner who has
+approached me, (and assuming he/she has no good relationship between performances), I lactate
+test him.
+Now don’t be concerned, I only bring this in here to explain exactly why our young runner (and
+possibly yourself) cannot maintain a positive relationship across performances. In short, his LT
+is weak. It will NOT be necessary for you to undergo lactate testing to know how to proceed to
+improve your own training and your LT.
+You see, I know from his poor race results that my new runner is building lactate long before he
+should (which is why, as I have tried to explain above, there is NO relationship). Remember,
+high lactate = poor long distance race ability.
+So, somewhere along the way as he increases his running pace, his blood lactate is climbing
+(earlier than it should and at slower paces than it should). I know this. His results are telling me
+this, even before I test him. If I can determine when that happens, at what pace/effort that is
+happening, I will then know exactly how to train him to make the lactate at that pace begin to
+stay low, and not climb until he runs at a faster pace. And then a faster pace... and a faster pace...
+Think of it like this. If your LT is low (at slow pace relative to VO2max), you are "borrowing"
+from your anaerobic ability to help your aerobic ability maintain the particular pace you are
+running at. Like having an overdraft at the bank because you cannot live within your monthly
+wage. But as the race distance gets longer, you cannot borrow more and more, but can only
+borrow less and less. Until at the marathon, which is 99% aerobic, you cannot borrow at all and
+your poor aerobic ability is exposed and you are left wondering why the pace is so slow
+compared to (eg) your 10k.
+Now here I would have liked to explain the mechanics of how to test, because although you will
+not need to be lactate tested, the knowledge of how to do so will be important further down the
+line. However, for you to understand it fully, you would need to see some charts, which I am
+unable to post. Fortunately I am able to refer you to a website that does a very good job of
+explaining the rationale and the lactate testing procedure in a very clear manner. If you would
+genuinely like to improve your training (and race performances), spend some time and go and
+read the information on the linked site. It is only a single page of text and charts (although there
+are other links that some of you might like to explore, although doing so is not necessary). I
+expect to have to refer to the knowledge the single page contains in later parts.
+http://www.lactate.com/pitesbas.html
+Final summation: if you cannot maintain a good relationship across race performances it is
+because your LT is not good enough (not a high enough percentage of your personal VO2max).
+Your LT is dependent on adaptations in your leg muscles caused by training. If you have a poor
+LT, your adaptations have not occurred well enough (despite even years of training). As will be
+better explained later, these adaptations are intensity dependent (train too fast, they won’t
+happen).
+My apologies if this appears long-winded, but it is a long-held belief of mine that runners train
+better if they understand WHY they are doing such-and-such training.
+Addendum To Part II
+Let's look at some major negative effects of "borrowing" from your anaerobic ability in a
+distance event (anything from 5k upwards). (For those of you who do not think you are doing
+this, just note that if you have a poor(er) pace relationship as the distances increase, you are.)
+1. When the muscle cells in your legs build up too much acidity (caused by running
+anaerobically), those cells shut down since the acidity inhibits enzymatic action and
+contractibility in the cell and energy breakdown can no longer continue. So, the more you are
+trying to stoke the boilers, pour on the speed, and fire on all cylinders, the more some of those
+cylinders are shutting down. This is not so if you use those self-same cells/fibres aerobically.
+2. Breaking a molecule of glucose down into energy anaerobically is horrendously wasteful of
+fuel. It will result in fuel economy the equivalent of "2 miles per gallon". Breaking that exact
+same glucose molecule down into fuel aerobically results in "36 miles per gallon". If you are
+going far enough (HM or marathon), you better be as economical as possible and get as many
+miles as possible per gallon because otherwise you are going to run out of fuel and crash long
+before the finish line. Note that the muscle cells that are operating anaerobically will be unable to
+access your huge store of fat as a fuel (which would give you wayyy better than even 36 mpg).
+Fuel which would ensure you get to the 20 mile mark and still find you can pour it on.
+Think of it like this. Put the smallest compact car you can think of, and a Ferrari, side by side.
+Empty both fuel tanks, give both of them one gallon of fuel and tell them to go as far as possible.
+Which is gonna win?
+Since your LT measures at what pace you change over from aerobic to (increasingly more)
+anaerobically-fueled running, it is also a measure of when you stop being economical and
+become more and more uneconomical. So, we can also say that a low (poor) LT also means poor
+fuel economy.
+Many of you will be able to give examples of guys (I know at least two) who can crank out 20
+mile long runs at 6.00m/m and yet not finish a marathon at that pace. Why? Because, due to their
+precise fuel economy (or lack thereof) they cannot store enough CHO to get them through the
+final 6.2 miles. Their fuel economy, and therefore their LT, is too low.
+This next part was not even planned to be included when I began this thread, but I had a thought
+that Flagpole's 8.00m/m run was going to be harder for him than his 7.40m/m, and I knew I had a
+personal experience that should explain to him (and perhaps others) why this might have
+happened.
+I will start therefore with a personal anecdote and then explain why things occurred as they did
+afterwards.
+For those who did not notice that Part II was numbered in the title of the post, I will also put the
+part number in the text. So...
+Part III
+I have always ridden motorcycles. I tend to ride them pretty hard. I live in a rural area, so this
+usually means throwing the bike like a maniac round the twisty country roads. Great fun. The
+part of me that loves doing this has not aged one whit. All this just to explain that occasionally I
+come off the bike, sometimes spectacularly.
+One such time (and not the last), almost 8 years ago, involved some broken bones and a
+prolonged spell out of training. It was six months before I felt like getting back into it, and when
+I did, it was winter and miserable. So I postponed it some more (which was suprisingly easy to
+do).
+When I did go out for the first few runs, they were a major struggle and I could not remember
+ever running so slow in my whole life. I had still been coaching all the while I was out of
+running, and had recently started a couple of new young guys. Although I tell them I really don't
+care what training they have done before they come to me (and that I was going to test them
+myself and form my own opinion), they (and others) are pleased to show me their old training
+schedules and often show up to first day of training with a printout. (It usually turns out they are
+mad keen to show me how fast they can run a session of 400s).
+Perhaps because I was browsing some of these printouts, added to the depressing fact I seemed
+to have slipped back so far in what was now one whole year off training, but I decided to try
+something a bit different. I am nothing if not a student of the sport, I knew how I coached, and
+what worked for me, but I also knew there were many other ways that claimed to get you fit. I
+had read all manners of training schedules over the years. So I decided to put myself on a low
+mileage/high intensity schedule and hammer my old ass back into shape in the shortest time
+possible. What can I say? It suited my temperament at the time.
+I formulated a week that included; a 3-mile run as fast as possible (and trying to improve the
+time each week); a 45-min hilly route run as intense as I could make it; and a 90-min run at best
+possible steady pace (without struggling or crashing and having to back off at any point). Three
+other days were just 30-45 mins at a reasonable lick. No slow easy runs in the whole week. One
+day a week off.
+I kept this up for 3 months. Along the way I took part in some shorter faster stuff with the
+younger kids during training. I realised though that there were some days when I just could not
+keep up the pace on the 45min or 90 min runs in training, and would just bag those runs and turn
+for home.
+A year previously, I had been used to long runs with the 2.35-2.45 marathon group, but I was
+now acutely aware that I could not yet go back out with them, but I did accept the good-natured
+cajolling of the 3.00-3.15 marathon group to join them for one of their 2hr+ long runs (±8.00-
+8.15m/m).
+Now, as all runners do, I had already figured out that my 3-milers were by now at 5.30-5.40
+pace, the 45 min run was 6.00m/m± and the 90 min run was somewhere around 6.40m/m or so.
+Even the easy runs were rarely slower than 7.00m/m. You would have thought 8.00m/m would
+be a breeze...
+It was one of the worst runs of my entire life. I can still recall it. All the way I wanted to either
+stop and walk, or speed up to normal 90-min pace and get my ass out of there. The rest of the
+group were laughing and joking and I was gritting my teeth because it felt like my legs were
+made of wood and someone had tied a piano to my back. Luckily, I was not too suprised and I
+knew why I felt so bad...
+Way back in the late 1960s a professor called John Holloszy got some rats to run on a treadmill
+for various lengths of time up to 2hrs per day at around 50-75% of the rats' VO2max (easy
+running, therefore). After 12 weeks, he found that the rats had increased the mitochondria (vital
+for aerobic energy production) in their running muscles (compared to control rats that did no
+training). This was a seminal piece of work, because it explained why runners get better with
+training.
+The next question was logical. How long should people run for to optimally cause this effect?
+Back to Holloszy and his fellow researchers who formed 4 groups of rats to train: one group
+running 10mins/day, a second running 30mins/day, a third running 60mins and a fourth running
+2hrs/day. All at the same easy 50-60% VO2max, and for 5 days/week for 13 weeks.
+Perhaps logically, the 2hr-group had the greatest increase in mitochondria at the end of the
+training period.
+In a tough endurance test at the end of the training, the 10-min rats managed 22 mins, the 30-min
+group 41 mins, the 60-min rats could run hard for 50 mins and the 2hr-rats kept going for 111
+mins. It was now apparent that time to exhaustion (all rats running the same pace) was directly
+related to mitochondria development (which itself was directly related to time spent training).
+But what about intensity? Were mitochondria only created while running long and slow?
+In 1982, a guy called Gary Dudley decided to explore this question. He had several groups of
+rats training five days/week (but only for 8 weeks). Like Holloszy, he also used a range of
+different training durations, from 5-90 mins per day. However UNLIKE Holloszy (whose rats all
+trained at the same pace) he also used a range of training intensities. Dudley's rats trained at
+either 100%, 85%, 70%, 50% or 40% VO2max. He also examined how different intensities and
+different durations affected different muscle types (fast twitch white, fast twitch red or
+"intermediate", and slow twitch).
+The results were interesting and each fibre type responded differently:
+Improvements in mitochondria in fast twitch white fibres began while running at 80% VO2max
+(but not slower, presumably because they were not recruited) and increased exponentially as the
+pace climbed to 100% VO2max.
+However improvements in fast twitch red (intermediate) fibres maximised at sub-max paces
+(85% VO2max) and did not get better with increased speed.
+And the best way to cause improvements in slow-twitch fibres was to run long and slow at 70%
+VO2max (adaptation began from as low as 50% VO2max pace). Faster was not better. Although
+Dudley found that 90 mins was not better than 60 mins, Holloszy had shown that 2hrs was
+definitely better than one hour (which ties in nicely with Lydiard-type training recommendations
+that one 2hr run was better than 2 x 60 mins — you have to admit that the guy had great intuition
+born of his experience trying out different training on himself).
+So, (some of you may be way ahead of me already). Why was my 8.00m/m run so difficult?
+Well, all my training in the 3 months leading up to it had been relatively hard. I had not trained
+slow enough for my slow twitch fibres to become stimulated to build huge amounts of
+mitochondria. My fast twitch red were becoming okay (I was reasonably good for 3-6m fast), but
+I could not access those fast powerful fibres at 8.00m/m. The intensity was too low. I was being
+forced to use my slow-twitch fibres... and they were not trained for any kind of endurance, and
+certainly not 2hrs.
+It seems paradoxical, that I can be okay at 7.00m/m, but not at 8.15m/m, but here is one example.
+I was okay if I ran hard enough to force my body to recruit my fast twitch red fibres (and as long
+as they had enough glycogen). Like most distance runners I have relatively few fast twitch white
+fibres, so they were little help, and in all my 3 months of training my slow twitch were being bypassed on every training run. (Or rather, recruited, but swamped/overworked). The intensity of
+each training run was too high for them to be stimulated optimally to best create mitochondria in
+themselves (and thus improve). So when I ran at a pace that I was forced to access ONLY them,
+I was sunk.
+Following this run, I threw out the intensity and went back to training sensibly. In 10 weeks I
+was more like my old (younger?) self.
+So, to sum up:
+To improve your LT (which will have a direct impact on your race performances), you must
+increase the motochondria in your running muscles (in a neat move, the optimal training to
+improve mitochondria is also the optimal training to improve capillary density).
+The more mitochondria, the less lactate at every running pace. But mitochondrial adaptation in
+each fibre type is training-intensity dependent. If you want to maximise the number of
+mitochondria in each fibre type, you must train at the correct pace for that type. (remember; the
+more mitochondria, the less lactate; the less lactate, the faster the racing pace and the more
+economical you are at any pace, meaning you can keep that pace up for longer.)
+Part IV
+Let’s move from the Why to the How To...
+And in contrast to the accepted method, let’s start from the end. I have repeatedly stressed
+throughout this thread and the preceding one (see link to it from Part I), that there is a huge
+improvement in performance that can be made from purely aerobic training, if you get it right. A
+huge improvement wayyy before any faster work is done. In the example that follows I want to
+stress that what was achieved was done without any of the sort of sessions that many of you
+might expect.
+So when you read what follows, just bear in mind that there were no sessions of repeat 1,000s,
+no repeat miles, no "tempo" runs (at least in the accepted sense of 10k-pace +15 secs). Just lots
+of controlled aerobic training (detailed examples of the training will follow)
+All the figures and timelines that I will quote are genuine and I want to use the example of my
+friend Giuseppe (whom I’ll refer to as Joe, for the purposes of this thread).
+A little over 5 years ago I coached Joe to two 2.27 marathons. We had expected the second race
+(some 6 months after the first) to be sub-2.25, but raceday proved to be extremely wild and
+windy and Joe ran his heart out and yet just broke his earlier 2.27 by a bare 2 seconds.
+We would have ducked the race under normal conditions and found another, but it was a fall
+marathon and we did not have a fall-back. Life being what it is, there was no guarantee how
+things would be if we waited till the following spring. Work, injury, illness... anything could
+happen in four/five months. Joe made the decision to race, and I admired him for doing so.
+Some months after the race I moved house, away from the area and we lost touch.
+Early last year my wife raced near Rome and Joe came across her after the finish line and we all
+met up that evening for a meal and a chat about old times. We had all enjoyed many long runs
+together all those years ago, so we had much to recall and talked late into the night.
+Joe ruefully admitted that he had put on 20 pounds and was now approaching 35 years of age. He
+was also mired in work, since he was the financial controller of his family’s printing business
+and was having to hassle many clients for lack of payment on time. A relaxed, easy-going guy,
+Joe admitted that the stress of having to constantly argue with clients was getting to him and
+serious training had long been forgotten. It was at least two years since he had had any kind of
+fitness and now he was down to maybe 20 miles per week, if that. And slow!?! (many of us
+could tell similar stories).
+Anyway, we parted after swapping email addresses and telephone numbers. During the evening
+Joe had several times remarked that his best running days were behind him, but my wife (older
+than him by a few years) had admonished him every time, repeatedly telling him he was talking
+nonsense. All he needed, she said, was to make the decision to begin, and with the right training
+it would all come back.
+A few weeks after I got back home, I got an email from Joe saying that he was going to go for
+one more serious marathon. We had got him hyped and he had been able to think of little else. I
+told him before he began to look at his working life and figure out how he was going to find 90
+mins to 2hrs per day for training. I also told him to ease his way (taking as long as he liked) to
+get to 50mpw and then I would give him a written schedule from there. (Examples of the
+schedules will follow).
+One thing that concerned him (and I) was how we would monitor his growing fitness without
+jumping into regular races. Since he had worked with me in the past, he knew all about lactate
+testing and HR training. After some thinking, I told him we would be able to do the same, only
+without the blood tests. If we were really careful, I said, and he kept me informed of everything,
+it would work. He agreed to try. He argued with his brothers, telling them he was going to alter
+his work hours to suit his training. Grudgingly, they agreed.
+Elsewhere, on another thread, I had explained why I liked the period in lactate tests to be a
+minimum of 8 mins long. I have long used a protocol that consists of repeat runs over 2400m at
+slowly increasing intensities (with pauses after each period to draw blood). (Note: you really
+should have followed and read the lactate link I put up earlier to be able to fully understand the
+discussion from this point on. Don’t worry, it’s not difficult and it's well worth the read).
+Once Joe got to 50mpw, I told him to perform the following mini-test (he knew the protocol). Go
+to a track on a windless day, as rested as if for a race, and do the following:
+Run 2400m at a steady 140 HR (Stop 90 secs and record time)
+Run 2400m at a steady 150 HR (Stop 90 secs and record time)
+Run 2400m at a steady 160 HR (Stop 90 secs and record time)
+Run 2400m at a steady 170 HR (Stop 90 secs and record time)
+Run 2400m at a steady 180 HR (Stop 90 secs and record time)
+At all times, adjust the running pace to maintain a stable HR. On each new stage slowly edge the
+HR up (ie: it is ok if the HR takes the first 600-800m to reach target level), then simply maintain
+HR. DO NOT start fast and have to slow to maintain target HR.
+Joe got back into things in mid-April, and ramped to 50mpw of easy jogging pretty quick. I got
+him to do the mini-test on 11 May and periodically thereafter (bearing in mind the ~6 week
+period for mitochondrial growth). The numbers below detail his progression in running speed at
+each date and each HR. The times are in mins/mile. Joe’s oganised training began immediately
+after the first test.
+In 12 weeks ± Joe improved his HR vs running pace at all intensities. A pace that required 150
+HR initially, only required 140 HR a brief 12 weeks later. This was true across the board. A pace
+that used to require 180 HR now required less than 170 HR...
+Dates — 140 — 150 — 160 — 170 — 180
+11May – 7.56 – 7.22 – 6.42 – 6.05 – 5.40
+06Jun – 8.03 – 7.17 – 6.36 – 6.01 – 5.33
+29Jun – 7.23 – 6.49 – 6.12 – 5.42 – 5.18
+04Aug – 7.18 – 6.36 – 6.00 – 5.33 – 5.10
+Six weeks after this last test (and less than 20 weeks after beginning organised training), Joe
+entered a marathon with instructions just to sit quiet with the 2.20-low group and stop at halfway.
+He ran 71.xx.
+Managing to finish less than 2 mins off his all-time half marathon PR after only 20 weeks
+organised training, Joe began to see how his sub-2.25 dream could still happen.
+Discussion:
+Before I get into the exact details of Joe’s training, let me pre-empt one question you might have:
+how was Joe able to run 5.33m/m with 170 HR when it used to require 180 HR to run at
+5.40m/m?
+If you have read and understood all that I have posted, you should have a good idea of why this
+occurs, but let me just review it quickly.
+A prime function of your heart is to deliver oxygen to your active muscles. Your muscles then
+use this oxygen combined with glycogen or fat to create energy to run. If your muscles are
+inefficient at doing this, you will not get as much running energy per unit of oxygen as you
+could.
+Think of your heart as a pump that is told what to do by the muscles. "We need more oxygen!"
+say the muscles and the heart beats faster. "We have enough", they say and the heart rate stays
+low.
+To break one unit of glucose down into energy anaerobically (WITHOUT oxygen) you get two
+units of energy (let’s say that you get 2 paces/strides up the road before you need more energy).
+If you break that self-same unit of glucose down into energy aerobically (WITH oxygen) you get
+36 paces up the road before you need more energy. Obviously this is much better. So if you can
+make what used to be an anaerobic pace into an aerobic pace, you are a much superior runner
+and can keep this pace up for much further.
+But even better, if you were so efficient that you could break down one unit of fat into energy
+(instead of glucose) you would get 460 paces up the road before needing more energy. And your
+HR would be wayyyyy low at the same time.
+Now 100% fat-burning isn’t going to happen, but I hope you can understand that the higher a
+percentage of fat there is (along with a percentage of glucose/glycogen) in the fuel mix you burn
+at marathon race pace, the more comfortable you will be, the longer you will keep up the pace,
+and the faster you will run.
+The short answer? Joe just got more efficient at using oxygen and breaking glucose/fat down into
+energy for running.
+Addendum to Part IV
+When Joe ran his first mini-test on 11 May, as well as emailing me the data, he also sent his
+opinions on the effort levels involved at each stage. At the lower end, he remarked that it was
+somewhat difficult to keep his HR low enough. This is often the case at first. As can be seen,
+Joe was very slow initially which showed how much aerobic fitness he had lost. The running
+pace at this very low effort level improved in time with the training. Most runners would skip
+this effort level and so lose the valuable adaptations that take place.
+At the higher end he found 170 to be a bit of work, and he said he would not like to have
+maintained the 180 HR effort for much longer. When pressed, he stated that he would be lucky
+to keep the 5.40m/m pace up for 5km. Definitely not further. This signifies, even without
+testing, that Joe had passed his lactate threshold at this pace and was now building serious
+amounts of lactate in his running muscles.
+Less than 20 weeks later, Joe would complete a HM (at 21km, a distance that was over four
+times longer than the first mini-test) at faster than this 5.40m/m pace he had found so tough (HM
+pace was 5.28m/m). He would be able to do this because, through training, his lactate at this
+pace was now significantly lower than it had been in his first test. Since this was so, the “effort”,
+the degree of difficulty to him, the stress at this pace, was greatly reduced and he had no
+problems maintaining this effort for 71+ mins.
+Second addendum to Part IV
+How can we all move our Lactate Thresholds? Actually, the question is not that simple, because
+for some of you it will be necessary to first establish a threshold. Think back to the lactate charts
+I linked you to in Part II (and here I wish I could post some charts to make this more clear).
+You’ve got the x and y axes, and the lactate curve begins from the left and runs horizontal for a
+short way and then climbs at 45 deg angle. For some of you, that would be exactly what we
+would find if I lactate tested you; your anaerobic energy kicks in wayyy too early, and you have
+no good relationship between your 1500m time and your 10k / HM time.
+Slightly better would be the next runner whose lactate curve stays horizontal for slightly longer
+(remember, the horizontal axis is running speed, so the further the curve goes to the right before
+climbing, the better). At a slightly better running pace, this athlete’s curve then climbs at 33 deg
+angle.
+And, of course, we have the well trained athlete whose curve stays flatter for much longer before
+curving upwards.
+We need to train to become like the third athlete. If you have not already read and fully
+understood the earlier lactate link, you might want to consider drawing these 3 curves on a graph
+paper. Draw the x and y axes. You can mark the vertical axis 1-10. Starting from about 2 on the
+vertical axis, give the first athlete “A” about 2cm of horizontal line before curving/slanting
+upwards at 45 deg all the way to 10. Starting from about 1.5, give the second athlete “B” about
+4cm of horizontal line before climbing at 33 deg again all the way to 10. Finally, give the third
+athlete “C” about 6cm+ of horizontal line before his slope climbs at an even flatter angle to a
+max of 8.
+Having done this, note that if you draw any vertical line that crosses the horizontal axis
+anywhere on the graph you can see how much lactate each athlete has to build to run at the same
+pace as the other two athletes. Runner A’s lactate can be crazy high, and runner B’s climbing,
+while runner C’s lactate is still at calm levels.
+How do we make runner A like runner B (and B like C)? To move the lactate curve to the right,
+we need to go wayyy back to just before the curve begins to turn, and train both at the point, and
+below (slower). Not faster. If we do this right, in six weeks the curve will move and we will be
+able to run faster, more easily (ie: aerobically and not by calling up some anaerobic energy).
+Obviously, doing lactate tests, the effort levels at which to train are easy to find. How can we
+find them without lactate testing? That is what I will try to explain in Part V.
+Of course, almost every running book since Lydiard has asked you to train this way, but they just
+say “run easy”, and it has been my experience that very many runners get the definition of "easy”
+wrong.
+Part V "A"
+First up, be sure that you understand the above addendum. To move your LT (for all the reasons
+given earlier, reasons that show that a high LT is THE prime attribute for a good performance)
+you must work BELOW (slower than) the pace at which your LT currently turns.
+No pain, no gain, doesn’t work with LT training.
+Now, how did I train Joe? If you can follow this, you can do exactly the same to yourself. I am
+trying to write this as carefully and simply as possible, but it's going to be wordy and full of
+numbers and data which you will have to sift through. Please make sure that you read it just as
+carefully and don't just jump in with questions, because this part of all this thread is a major key
+to improving your race performances. I will do my best to sum it all up at the end and put it into
+key points to apply to your own training.
+First off, what I did with Joe was ask him to do a simple (but tough) test to determine his
+HRmax. I asked him to go to a track and warm up, stretch and do some strides as if preparing for
+a race. Then (wearing his HRM) he was to run an all-out 800m and note the highest HR recorded
+on his monitor. He was to rest 2 mins and run an all-out 400m. The highest number he would see
+as he crossed the finish-line, we would take as his HRmax. Since HRM’s can sometimes be
+tricky and go blank or haywire at the wrong moment, he was to have someone there to be ready
+to immediately manually take his pulse for 6 seconds (and multiply by 10). This proved not to be
+necessary, since his HRM read 193.
+I have taken enough lactate measurements and had people wear HRM’s in marathons (even Joe
+himself, years earlier) that I was able to tell him that based on this HRmax his best marathon HR
+would be 175-177. Higher than this would not be possible/sustainable. (Note; I just got them to
+wear them for my information purposes, not to use as a race-pace guide, a practice I do not agree
+with).
+A few days after this HRmax test, I got Joe to run his first 2400m test on 11 May. If you check
+back at Joe’s results, you will note that the speed at 170 was only 6.05m/m.
+For reasons of cardiac drift, I had learned that the pace at 170 in the test would pretty accurately
+reflect the running pace he would maintain for a marathon (assuming he was trained well) even
+though in the race his HR would climb to 175-177. This because for 2400m he is not having heat
+dispersal problems such as he will encounter if he keeps up such a pace for 2hrs+. So, assuming
+proper training, the pace at 170 HR (for Joe) in the 2400m test equals pace in the marathon at
+175-177 HR (in other words, his best marathon pace/effort).
+So, with an eventual target of sub-2.25 (5.30m/m) in the marathon, Joe’s current pace at 170 on
+11 May (6.05m/m) was too slow.
+I told Joe that to move/improve the running pace at this HR, he had to train a lot of miles at HR’s
+lower than 170 (and obviously, slower). He knew this anyway. It would be some time before he
+would even be allowed to run at 170 HR intensity. Not until he was ready for it. And by the time
+he was ready for it, it would be much easier than he was finding it at present.
+As noted in an earlier addendum (to Part IV), Joe found this initial test effort at 170 HR to be
+okay for 8-10mins, but not something he wanted to keep up for too long, maybe 30-40 mins.
+Indeed 180 was something he did not believe he could maintain at this early stage for even 18
+mins. Both of these subjective perceptions (and Joe has a lot of running experience) were telling
+us that his lactate was rising even at 170 HR and was going very high at 180. If we can look back
+at the A-B-C graph I described above (Second addendum to part IV) we can picture Joe as being
+runner A (or maybe B). If you draw this graph it will become clearer. For an optimal marathon,
+we needed Joe to be capable of the sort of lactate curve generated by runner C.
+To do this, we needed to get Joe to work at paces before his lactate curve turned. It obviously
+was turning BEFORE 170 for 3 reasons:
+1. The pace at 170 (6.05m/m) was not the target marathon pace (5.30m/m as predicted by the
+relationship between Joe’s other shorter distance performances, and as predicted by Joe’s earlier
+ability from 5 years previously. We KNEW Joe was capable of 2.25 if well trained. The fact that
+he could not do it at present simply meant he was not well-trained. A fact we were aware of.)
+2. If Joe was well-trained, the lactate curve should not curve till just about/just after Joe's
+marathon pace/HR (ie: 5.30m/m and 170+). In fact, his marathon target pace and marathon HR
+should pretty much coincide at 170HR. The fact that they did not, showed us his LT was low.
+3. Joe did not want to run for too long at 170 HR. A significant pointer that he was already above
+his LT.
+Let me go over that again. It look complicated, but it isn’t.
+a) If you have a POOR relationship across race performances (as already discussed at the very
+start of this thread) you have a low LT compared to what it possible for you. If you do the 2400m
+test, you will either find that the pace at your best marathon HR is too slow (like Joe at 170) or
+that the effort required at that (170) HR is too much and something you cannot hope to maintain
+for 26 miles.
+b) If you have a GOOD relationship, and your HRmax is like Joe’s (193+) then your best
+marathon race HR will be 175 ±. If you do the 2400m test, you should find that your pace at 170
+HR is very close to best marathon pace (although HR in the race might be 175+). AND you
+should feel that running at 170 HR is no big deal. You can maintain it comfortably for a long
+time without even thinking.
+So, Joe's marathon pace was not where we expected it to be. And 170 HR was "too tough" at
+present to maintain for 26 miles. He had to train slower/easier and lift his LT which was
+currently very low.
+Here we needed to find 2 training paces for Joe. One, we knew had to be low aerobic
+conditioning pace for every day, the second could be up closer to his current LT.
+The low aerobic pace had to be ~50 bpm lower than his HRmax (70-75% of HRmax). Since Joe's
+HRmax was 193, this put his easy mileage at 145 HR (or lower). The second HR was to be a bit
+higher, but still under LT. This one was set at 155-160. (Note here: the LT at this point was still
+low, and occurring at a low HR. In time, Joe would be able to run at marathon HR 175 very very
+comfortably, because the lactate at that effort/HR would be low by race time. Until then, he had
+to work BELOW this effort and ease the comfort zone up until it reached 175+). This second
+intensity was set at Marathon HR minus 15-20 bpm (for now, it would be allowed to rise as Joe's
+fitness improved... as will be explained in the example).
+As a general guide, and in my experience, this is what I have found works best. Marathon HR
+will be approx 15-20 beats lower than HRmax (no better). And aerobic conditioning HR needs to
+be another 30 bpm below THAT (and hence ~50bpm below HRmax) I will qualify this in a more
+general statement at the end.
+When Joe's LT moved, the pace/HR at which he could train and still be under LT would also
+move/rise. Although his upper limit at first was 155-160, in time he would be able to train at
+170HR and still be very comfortable. But not yet. He had a lot of work to do first. 170 was still
+too "uncomfortable" (ie: too close to, or slightly above LT).
+The totally WRONG thing Joe could have done at this point was to think "right, 175 is marathon
+HR, I'll work at that pace until I can do more and more of it." Or he could have thought, "right,
+5.30m/m is target race pace, I'll start with 2 miles at that pace and add on one per week until I
+can do 26..." Neither of these would have worked for him.
+What he had to do in effect was find his aerobic upper limit and slowly ease it up, not by
+working harder, but by working just at the optimal pace/effort to stimulate his muscles to become
+better at providing energy at this rate. This would cause the effort at that pace to drop, to become
+easier and the HR at that pace to fall (and usually the pace at that HR to improve/drop). He
+would then slowly be ably to work at higher and higher HR's while still remaining fully aerobic
+and working under his LT.
+In fact, for his HM, 20 weeks after starting, Joe would average 181 HR at 5.28m/m. This was a
+HR he was not able to maintain for longer than 18 mins at the start of training. The difference
+would be that by HM time, Joe's lactate at 180 HR was LOWER than his lactate at that same HR
+20 weeks previously (and therefore less "stressful" and more "comfortable"). This, despite the
+fact that the pace at that HR was now faster.
+The following information is not going to be tidy. I cannot put it in chart form, so you may need
+to copy it out into Excel and straighten it out a little. Or print it out and digest it slowly.
+Part V "B"
+Starting from 11 May (when he had reached 50mpw and conducted his first 2400m test), over
+the next 16 weeks, Joe's weekly mileage was as follows:
+wk1 (64mpw) wk2 (67) wk3 (88) wk4 (85) wk5 (60) wk6 (103) wk7 (86) wk8 (116) wk9 (110)
+wk10 (98) wk11 (96) wk12 (110) wk13 (116) wk14 (67) wk15 (107) wk16 (99).
+Joe was given schedules to show him how to best get from 50 mpw to 80 mpw.
+Mon 60 min easy 145 HR
+Tue 75 min easy 160 HR
+Wed 45 mins easy 145 HR
+Thu 60 mins easy 150 HR
+Fri 75 mins easy 160 HR
+Sat 45 mins easy 150 HR
+Sun 90 mins easy 155 HR
+Approx 60mpw
+Mon 75 min easy 145 HR
+Tue 60 min easy 155-160 HR
+Wed 60 mins easy up to 150 HR
+Thu 75 mins easy 145-150 HR
+Fri 75 mins easy 160 HR
+Sat 60 mins easy 14-150 HR
+Sun 90 mins easy 150 HR
+Approx 69mpw
+Mon 60 min easy 140-145 HR (or lower)
+Tue 90 min incl. 70 @ 160 HR
+Wed 75 mins easy 140-150 HR (or lower)
+Thu 75 mins easy 150-155 HR
+Fri 90 min incl. 70 @ 160 HR
+Sat 75 mins easy 140-150 HR (or lower)
+Sun 3 hrs easy 145-155 HR (w/60 min @ 160)
+Approx 80+mpw
+We should note that Tue and Fri are preffered "work" days (although the pace was always
+easy/aerobic). Sunday is obviously long-run day as it is for many. The remainder of the week
+was just increasing miles at easy running HR.
+For the first 8 weeks, Joe did not run higher than 160 HR at any time (even though he intended to
+race at 175 HR in the marathon). As can be seen from his 2400m tests on 29 Jun, his pace at all
+HR's was slowly improving. Even the paces at 170 and 180 HR were improving despite the fact
+that Joe had not run at that intensity AT ALL in the previous 2 months.
+By wk6 he added some more easy 150HR+ running on three days per week (to go to 103mpw).
+Also on wk6, each Sun became simply 2hrs-2hrs30 at 150± (no longer including 60 mins @ 160
+HR)
+Sample weeks are as follows (mileages are approx, Joe notes times eg: 1h45mins @ 150HR±):
+wk4:
+Mo (8m @ 145)
+Tu (10m @160)
+We (12m@145)
+Th (14m@145-150)
+Fr (8m @ 160)
+Sa (12m @ 150)
+Su (2hrs @ 150 incl: 60 mins @ 160)
+wk7:
+Mo (10m@ 150)
+Tu (12m @ 145)
+We (10m @ 160)
+Th (14m @ 155)
+Fr (10m @ 145)
+Sa (6m @ 140)
+Su (2hrs 15 @ 145-150)
+Over time, the running speed at each HR was slowing improving (see 2400m tests).
+On wk 8, we introduced a session simply designed to to get Joe used to moving faster
+biomechanically, without incurring high lactate. I call this 200/200 or 200-fartlek. It is done on a
+track and involves 200m @ approx 5k pace followed by 200m easy and continues without
+stopping for 25 laps (10,000m). The point is NOT to do the overall 10k in the fastest possible
+time (by slowing up the fast bits and speeding up the slow bits), but to maintain a healthy
+differential of approx 15 secs or more between the fast/slow 200s. Something like 40s and 55secs
+or 43s/60s.
+Joe ran this on weeks 9 (38s/55s – 38.40 for the 10k); wk10 (37s/52s – 37.18 for 10k) and wk12
+(37s/51s – 36.53 for 10k). This session replaced one of the 160 HR runs on those weeks, the rest
+of the week remained unchanged.
+Up until wk 12, these 200/200 runs had been the only time Joe had run at higher than 160 HR
+(and even then, only for a short time).
+Only on wk13 was Joe allowed to run at 165-170 HR and this replaced his 160 sessions (because
+we believed his LT had now moved up from 160 HR). That week (Tue) he ran a measured 10m
+@ 168 av and managed 58.28 and found it "easy" (indicating therefore low lactate and a pace
+under/slower than LT). This was NOT a race effort. He ran it again that week (Fri) and managed
+58.56 (166 HRav) and found it again, "easy".
+Since this intensity was now a regular part of the schedule, in wk14 (Tue) Joe ran the same 10m
+at HRav 171 in 57.58 and found it "very easy, legs fresh, could have kept going no problem".
+Also that week (Sat) he took part in a local road 5km for "fun" (something to do with impressing
+a girl) and ran 15.58 (5.09m/m) with a HRav of 186. He phoned me afterwards and explained he
+could have kept going, but could not get faster. This is a common feeling on this kind of training
+which was not (yet) aimed at 5km racing.
+Just note here that Joe had never AT ANY TIME run this 5km race pace (5.09) in training. So far
+his fastest paced training had been 10m @ 5.48 apart from 3 x 200/200s worth of 10k. This is the
+power of a strong LT. His third mile had been the same as his second. He had not been slowing
+down. I told him that after the marathon, if he wanted, he could train to knock another minute off
+of this time... and that got him thinking.
+On wk 15 (Tue) Joe ran his 10m in 57.34 (5.45m/m) at HRav 169 (remember his marathon target
+was 5.30 at 175 HR, so he was getting there) and later that week (Fri) he ran 3 x 15 mins at 170
+HR with 5 mins jog.
+On wk16 (20 Aug) Joe ran 13 miles (HRav 168; simply as part of his 165-170 run) in 1.16
+(5.50m/m). This pace was now "comfortable" and something he could keep up for much longer.
+And on wk19, as already noted, Joe ran a HM (as part of a marathon) in 71.43 (5.28m/m) with an
+HRav of 181 (due to some cardiac drift).
+Was his aerobic training finished at that point? Far from it. I figured we were only halfway there.
+We needed to be able to see sub-5.30 at 170HR (or lower) on the 2400m test.
+Note that Joe was only now being introduced to 170 HR training/intensity. And that this was
+now becoming comfortable for him (ie: because the lacate at this effort was now low ).
+Conventional wisdom would have now stated; "based on his HM time, he needs to run tempo
+runs every week at that pace for 20 mins..."
+In truth, Joe was not yet ready for such intensity. He would do much better to just keep working
+away as he was. Continue for some weeks at 160-170, then slowly move that up to work at 175
+HR when the time was right. Always slowly slowly raise the intensity of training, and only when
+you are very sure you have maximised your running pace at all the lower intensities. Do not be
+fooled into thinking that you only need to be fast at 175 (race) HR. You also need to be pretty
+quick at 160, 150 and 140 HR too.
+Think of it like a tube of toothpaste. To ensure you get every last drop (of ability) you have to go
+to the very end of the tube and slowly squeeze your way up. Never hurrying.
+If you are not as aerobically strong as you should be (you have no pace relationship as race
+distances get longer, as explained way back at the beginning), it can only be for one (or both) of
+two reasons: 1. You don’t run enough miles. 2. The miles you do run are being run too fast. Fix
+either (or both) of those, and (aerobic) improvement will follow.
+Part VI
+Let me try and squeeze some more mileage from my toothpaste analogy:
+If you open a brand new tube, you can squeeze anywhere and expect to get some toothpaste.
+Without wanting to be too simplistic, see the tube as a new runner: pretty much any training you
+give him or her will result in improvement (toothpaste).
+It could even be possible that you are not a new runner, and have been running for some years
+but are now failing to improve substantially and believe that you have tapped all of your
+“trainability”. Here it is very possible (especially if you have no pace relationship) that all you
+have merely achieved is to squeeze all you can from halfway up the tube. You might have done a
+very good job of doing so, and seen sizeable improvement (toothpaste) for some time. However
+you might now (mistakenly) believe that is all there is in the tube.
+I think most people would agree that to get everything possible from a tube of toothpaste (to get
+every last drop), we need to go to the very end and squeeze/roll carefully all the way up. That, if
+you can excuse the analogy, is what this whole thread has been about. Maximising your
+trainability. So we can all walk away from the sport as “old farts” secure in the knowledge that
+we got out of ourselves every last bit of genetically limited potential.
+Okay, the reasons why I suggest/promote this method of training are already out there, and so is
+an example of how effective it can be. Within that example, I believe the "how" is quite clearly
+discernable, but let me be more clear and give some general guidelines that almost all runners
+should be able to apply to themselves.
+I have already mentioned that in one of Lydiard's books (Running With Lydiard, by Lydiard and
+Gilmour 1983) he suggests the initial one-week (mainly) aerobic training in his schedules is
+repeated "for as long as possible" before going on to the later parts of the programs. The advice
+contained in this (and the earlier) thread is my version of the training aimed to get every runner
+to an extremely high level of aerobic fitness. The first time it is undertaken (like "Joe") it may
+take some months to get to a very high level of aerobic fitness. But if this is not lost after each
+competition period, each subsequent "build-up" period will require less time (you start each time
+from a higher level). And in time will become more like 10-12 weeks instead of the (first time)
+20 weeks.
+I believe that if you get this first part right, then the major proportion of your training for any
+distance event will already be complete. You will be able to rock and roll pretty much year
+round. (Here we might consider such runners as Ron Clarke, as an example of this being
+possible). Okay, you might not be always in PR shape, but your season will not be characterized
+by odd peaks and deep troughs either.
+All or any other (interval, speed, call it what you will) training undertaken will be done better,
+and achieve more, if it is added onto a correct implementation of this first stage. Of course this is
+not all the training you will need if you are aiming for middle distance success. But get this first
+part right and you will be one mean “mutha” when you step onto the track for your first interval
+session. Indeed, I would refer you all to re-read and understand HRE’s comment above by Peter
+Snell and McFarquhar that it is very possible to even race close to your (middle distance) best
+simply off of this base period.
+Now the guidelines I am about to offer have not been proven with the rigor of a scientific study,
+but have arisen as a general trend out of repeated testing and training of distance runners over the
+years. I have found these to be valid for runners of all ages from 17 years and over. I would not
+suggest applying them to runners younger than 17-18 years old.
+1. Do an HRmax test on yourself (how-to example is in the text) and make every effort to ensure
+your complete and absolute confidence in the result (note that within 2-3 bpm of HRmax is
+accurate enough. Whether it is 195 or 197 will not affect how you train).
+2. Perform a 2400m test on yourself (from easy training pace to a max of 5bpm higher than your
+particular HRmarathon- see below).. Once again ensuring you are fit, fresh, rested as if for an
+important race and all possible variables (wind, etc) are controlled as much as possible. Since
+you are going to conduct this 2400m test again and again, you must try and ensure that, as much
+as possible, all tests are done under near identical conditions (or else you start wondering such
+thoughts as, "am I faster because it was less windy this time?"). Do all you can to control against
+such doubts having to occur (ie: don’t test in gale force winds).
+As a general rule, the best possible HR/pace/effort you can maintain for a full marathon (without
+crashing, hitting the wall, etc) will not be closer to HRmax than 15-20bpm. Getting within
+20bpm of HRmax might be hard enough at first, but with proper training it is possible to get even
+within 15-20bpm of HRmax. Closer than this (as an average over the whole race) I would not
+expect you to be capable of.
+So, HRmarathon is ~20bpm below HRmax, and easy running HR is another 30bpm (or more)
+below HRmarathon (therefore 50bpm or more below HRmax). Like this:
+If your HRmax is 193 OR HIGHER, then the following applies:
+HRmax: 193+ (even if over 200)
+Best possible HRmarathon: 175-177 HRav (note, this is the average taken from mile 5 to mile
+25, not the peak. Your HR might peak to 181 in the final miles as you throw everything onto the
+fire).
+Suggested training HR's: Easy every day running: 145 HR or lower (If you begin really unused
+to this form of training, initially you might start at 150, but as soon as the pace at this HR
+improves, it is recommended that you reduce your easy running HR to 145 or lower). This can
+often feel very slow to begin with, but should improve within 3-6 weeks and continue to improve
+for months. You may do as much running as you wish at this HR/intensity (always being careful
+to avoid overuse injury).
+Initial LTHR (initial lactate threshold heart rate): As with Joe in the example, begin at 155-160
+and do not let the HR rise on the run. Build up the distance you can run for, over time, to 10
+miles. At first, you may have to slow down within the run to maintain HR, but over the weeks
+and months, you should note that the running speed begins to remain more stable and you do not
+have to slow down (so much) to stop your HR rising. In time, the running pace at this HR (and
+all other HR’s above it) will also improve. Only move this HR up when your running pace vs HR
+is rock steady and you (easily) are able to run 10 miles at this HR without loss of pace or rise in
+HR. At that point, only move the HR up by 5bpm and begin again. The slower you build up the
+first time, the better your pace at HRmarathon will be. Remain at each HR as long as you are
+seeing improvement on the 2400m test and definitely until your pace vs HR is stable. You are
+trying to reach a state where your predicted/expected marathon pace and your 170 HR pretty
+much coincide in the 2400m test. And that this pace per mile can be maintained in training for
+10-15 miles at 170-175 HR without rising effort or rising HR.
+For example training weeks (60, 70, even 80+ mpw), go back to Part V (B) and plug your
+numbers into the example weeks given for Joe's training. (Want to run more mileage? Add in
+some extra miles at 140-150 HR. This can be as doubles on some days, up to 8miles in the
+morning and 10 miles at night. All easy aerobic running.)
+Rid yourself of any sign of impatience and just knuckle down to the work. Remember, a
+constantly dripping source of water will eventually erode solid rock. For this to work, you need
+your muscles to change, and change takes time. Mitochondrial growth takes ~6 weeks. So look
+for small change every 3 weeks or so, and significant change every 6 weeks or so. It is not
+suggested you 2400m test more regularly than every 6 weeks. More often is just frustrating, like
+someone who is trying to lose weight, jumping on the scales every morning hoping to see the
+pounds drop off. Just do the work and give it time to have an effect. Farmers don’t pull up their
+potatoes every five minutes to see if they are growing…
+If your HRmax is 183, read all of the above, but use the following numbers:
+Best possible HRmarathon: 165-167av
+Easy running: 135 HR or lower (This training HR will not change with time - it may drop, but
+the pace at this HR will definitely improve.)
+ILTHR: Begin with 145-150 and only move it up (only by 5bpm each time) when your pace vs
+HR is steady and you are able to run 10 miles at the particular HR without loss of pace or rise in
+HR. You are eventually trying to reach a state (some weeks or months down the line) in which
+you can run 10 miles at HRmarathon with no rise in HR and finish confident that you could go
+round again at the same pace with no rise in HR or loss in pace at constant HR.
+If your HRmax is 173, read all of the above, but use the following numbers:
+Best possible HRmarathon: 155-157 HRav
+Easy running: 125 HR or lower (This training HR will not change with time - it may drop, but
+the pace at this HR will definitely improve.)
+ILTHR: Begin with 135-140 and only move it up (only by 5bpm each time) when your pace vs
+HR is steady and you are able to run 10 miles at the particular HR without loss of pace or rise in
+HR. You are eventually trying to reach a state (some weeks or months down the line) in which
+you can run 10 miles at HRmarathon with no rise in HR and finish confident that you could go
+round again at the same pace with no rise in HR or loss in pace at constant HR.
+If your HRmax is 163, read all of the above, but use the following numbers:
+Best possible HRmarathon: 145-147 HRav
+Easy running: 115 HR or lower (This training HR will not change with time - it may drop, but
+the pace at this HR will definitely improve.)
+ILTHR: Begin with 125-130 and only move it up (only by 5bpm each time) when your pace vs
+HR is steady and you are able to run 10 miles at the particular HR without loss of pace or rise in
+HR. You are eventually trying to reach a state (some weeks or months down the line) in which
+you can run 10 miles at HRmarathon with no rise in HR and finish confident that you could go
+round again at the same pace with no rise in HR or loss in pace at constant HR.
+Obviously if your HRmax is one or two beats either side of the examples given, adjust the
+training HR's accordingly. Note that if you are not well-trained aerobically, you will very likely
+NOT be able to maintain the “best possible HRmarathon” as explained in the race. It is more
+likely you will crash at some point and be reduced to running at a much lower HR/pace.
+In the final example weeks of Joe, he was able to run two times per week for 10 miles at 165-170
+HR without loss of pace (all other runs being 145-150). Once he no longer saw improvement in
+his 2400m tests, he would take ONE of those days and slowly build up to being able to run 10
+miles at 175 HR (HRmarathon). The other day would remain at HRmarathon minus 8-10bpm.
+Once he could handle 10 miles at HRmarathon (without loss of pace to maintain HR) once per
+week, he would be very close to being race ready.
+How will you know when you are ready? When you can run at HRmarathon (or at least
+HRmarathon less 5bpm) for 10 miles+ with no drop in pace vs HR, and you KNOW you could
+go round again with no rise in HR to maintain pace, you can be pretty sure that your aerobic
+system is providing 100% of the energy being used. If you have never trained this way, you will
+be surprised how “comfortable” this will feel when you get it right.
+At that point, and not until then, you can decide whether to aim for a marathon, or to build on top
+of this aerobic base to aim for some shorter race distances. It should make sense that if you are a
+young runner the best time to begin this build up is soon after your main competition period of
+the year. Those who aim for two marathons per year might adopt it as the early part of their 20-
+week build up towards their next marathon. Note that it was always a Lydiard belief that even
+middle distance runners should be capable of a fine marathon before turning to speed.
+But what about “tempo” runs?
+I would suggest that only when you are capable of 10 miles at HRmarathon (without loss of
+pace) would you think about running at so-called “tempo” pace (marathon pace minus 12
+secs/mile). Indeed you might then find the following paces ideal and find a regular place for both
+of them in your training (like Hinderloppet): a 10-mile run at Marathon pace + 5-10 secs/mile
+(aka 10k pace + 35-40 secs), and 4-5 miles at Marathon pace minus 12 secs/mile (aka 10k pace +
+18-20 secs mile).
+Be patient. Do good work. And improvements will come.
+Finito.
