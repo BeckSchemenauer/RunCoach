@@ -1,8 +1,8 @@
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
 # Load the fine-tuned model and tokenizer
-model = T5ForConditionalGeneration.from_pretrained('./t5-finetuned')
-tokenizer = T5Tokenizer.from_pretrained('./t5-finetuned')
+model = T5ForConditionalGeneration.from_pretrained('t5-finetuned')
+tokenizer = T5Tokenizer.from_pretrained('t5-finetuned')
 
 # Example rough sentence
 rough_sentence = "Machine learning applications grow everyday."

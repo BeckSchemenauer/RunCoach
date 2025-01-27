@@ -149,7 +149,7 @@ def print_run_report(run):
 
 
 def iterate_folder():
-    folder_path = "../../Data/activities_gpx"
+    folder_path = "../Data/activities_gpx"
 
     # Gather all file paths in the folder
     file_paths = [os.path.join(root, file)

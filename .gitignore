@@ -1,6 +1,6 @@
 /Data/
 /QuestionClassifier/intent_model/
-/running_specific/InfoExtractor/brand_NER/bilstm_model.pth
-/running_specific/InfoExtractor/activity_details/bilstm_model.pth
-/running_specific/bulk_strava/
-/ChatBots/T5_based/t5-finetuned/
+/obsolete_code/InfoExtractor/brand_NER/bilstm_model.pth
+/obsolete_code/InfoExtractor/activity_details/bilstm_model.pth
+/Data/bulk_strava/
+/obsolete_code/ChatBots/T5_based/t5-finetuned/

@@ -13,7 +13,7 @@ model = T5ForConditionalGeneration.from_pretrained(model_name)
 tokenizer = T5Tokenizer.from_pretrained(model_name)
 
 # Load dataset
-df = pd.read_csv("../BART_based/sentence_polisher/ted-talks/transcripts.csv")
+df = pd.read_csv("../../../BART_based/sentence_polisher/ted-talks/transcripts.csv")
 sentences = df['transcript'].dropna().tolist()
 
 # Tokenize sentences into individual ones
@@ -64,7 +64,7 @@ eval_dataset = eval_dataset.map(tokenize_data, batched=True)
 
 # Training arguments
 training_args = TrainingArguments(
-    output_dir='./results',
+    output_dir='results',
     dataloader_pin_memory=True,
     num_train_epochs=5,
     per_device_train_batch_size=16,

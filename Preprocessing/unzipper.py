@@ -53,7 +53,7 @@ def process_fit_files(folder_path, output_csv):
     print(f"Results saved to {output_csv}")
 
 # Define the folder containing the .fit files and the output CSV file path
-folder_path = "../bulk_strava/activities"
+folder_path = "../Data/bulk_strava/activities"
 output_csv = "fit_files_summary.csv"
 
 # Process the files and save the results
