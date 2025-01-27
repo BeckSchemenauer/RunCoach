@@ -2,6 +2,7 @@ from transformers import BartTokenizer, BartForConditionalGeneration, Trainer, T
 from datasets import Dataset
 import pandas as pd
 import torch
+import torch.nn.functional as F
 
 # Initialize model and tokenizer
 model_name = 'facebook/bart-base'
@@ -69,10 +70,37 @@ def tokenize_data(examples):
 train_dataset = train_dataset.map(tokenize_data, batched=True, remove_columns=['short', 'long'])
 eval_dataset = eval_dataset.map(tokenize_data, batched=True, remove_columns=['short', 'long'])
 
+
+# Custom Trainer class to reward longer outputs
+class CustomTrainer(Trainer):
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
+        labels = inputs.pop("labels")
+        outputs = model(**inputs)
+        logits = outputs.logits
+
+        # Compute the CrossEntropy loss
+        ce_loss = F.cross_entropy(
+            logits.view(-1, model.config.vocab_size),
+            labels.view(-1),
+            ignore_index=-100
+        )
+
+        # Reward longer outputs
+        predicted_lengths = (logits.argmax(dim=-1) != tokenizer.pad_token_id).sum(dim=1)
+        target_lengths = (labels != -100).sum(dim=1)
+        length_penalty = torch.abs(predicted_lengths - target_lengths).float().mean()
+
+        # Combine the two losses
+        loss = ce_loss + 0.1 * length_penalty  # Adjust the weight of the length penalty as needed
+
+        return (loss, outputs) if return_outputs else loss
+
+
+
 # Training arguments
 training_args = TrainingArguments(
-    output_dir='./results',
-    num_train_epochs=3,
+    output_dir='../sentence_polisher/results',
+    num_train_epochs=5,
     per_device_train_batch_size=32,
     per_device_eval_batch_size=32,
     warmup_steps=500,
@@ -83,8 +111,8 @@ training_args = TrainingArguments(
     dataloader_pin_memory=True
 )
 
-# Initialize Trainer
-trainer = Trainer(
+# Initialize Custom Trainer
+trainer = CustomTrainer(
     model=model,
     args=training_args,
     train_dataset=train_dataset,

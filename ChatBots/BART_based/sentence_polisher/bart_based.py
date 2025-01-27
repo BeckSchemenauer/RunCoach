@@ -1,11 +1,10 @@
-from transformers import BartTokenizer, BartForConditionalGeneration, Trainer, TrainingArguments
-from datasets import Dataset
+import json
 import random
 import pandas as pd
 import nltk
 import torch
-
-#nltk.download('punkt')
+from transformers import BartForConditionalGeneration, BartTokenizer, TrainingArguments, Trainer
+from datasets import Dataset
 
 # Initialize model and tokenizer
 model_name = 'facebook/bart-base'
@@ -31,13 +30,11 @@ def get_random_sentences_from_source(source, is_csv=False, column_name=None, num
     random.shuffle(tokenized_sentences)
     return tokenized_sentences[:num_sentences]
 
-
-# Create rough sentences
-def create_rough_sentence(sentence, delete_probability=0.2):
+# Function to create rough sentences
+def create_rough_sentence(sentence, delete_probability=0.3):
     words = sentence.split()
     rough_sentence = [word for word in words if random.random() > delete_probability]
     return ' '.join(rough_sentence)
-
 
 # Tokenization function
 def tokenize_data(examples):
@@ -58,16 +55,24 @@ def tokenize_data(examples):
         'labels': target_encodings['labels']
     }
 
+# Load JSON data
+with open("manual_data.json", "r", encoding="utf-8") as f:
+    workout_data = json.load(f)
 
-# Get random sentences from TED Talks and new file
+# Combine JSON entries into one list of sentences
+json_sentences = []
+for key, values in workout_data.items():
+    json_sentences.extend(values)
+
+# Get random sentences from TED Talks and additional file
 processed_sentences_ted = get_random_sentences_from_source("ted-talks/transcripts.csv", is_csv=True,
-                                                           column_name="transcript", num_sentences=256)
+                                                           column_name="transcript", num_sentences=512)
 processed_sentences_hadds = get_random_sentences_from_source("hadds_approach.txt", is_csv=False, num_sentences=512)
 
-# Combine TED Talks and new file sentences
-processed_sentences = processed_sentences_ted + processed_sentences_hadds
+# Combine sentences from all sources
+processed_sentences = processed_sentences_ted + processed_sentences_hadds + json_sentences
 
-# Generate dataset
+# Generate rough sentences and dataset
 rough_sentences = [create_rough_sentence(sentence) for sentence in processed_sentences]
 train_data = [{'rough': rough, 'complete': complete} for rough, complete in zip(rough_sentences, processed_sentences)]
 train_dataset = Dataset.from_list(train_data)
@@ -81,6 +86,7 @@ eval_dataset = eval_dataset.map(tokenize_data, batched=True)
 
 # Training arguments
 training_args = TrainingArguments(
+    output_dir="results",
     dataloader_pin_memory=True,
     num_train_epochs=4,
     per_device_train_batch_size=32,
