@@ -10,12 +10,11 @@ import warnings
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
-with open('generated_activity_sentences.json', 'r') as file:
+with open('all_purpose.json', 'r') as file:
     data = json.load(file)
 
 # Tokenization function using Hugging Face's BERT tokenizer
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-
 
 def collate_fn(batch):
     tokens = [item[0] for item in batch]
@@ -47,12 +46,6 @@ def collate_fn(batch):
 
     return padded_tokens, padded_labels, padded_attention_masks  # Return all three: tokens, labels, attention_masks
 
-
-
-# Build vocabulary from training data
-vocab = tokenizer.get_vocab()
-vocab_size = len(vocab)
-
 # Label Encoder for labels
 label_encoder = LabelEncoder()
 all_labels = [label for item in data for label in item["labels"]]
@@ -68,22 +61,28 @@ class SentenceLabelingDataset(Dataset):
     def __len__(self):
         return len(self.data)
 
+    # In the Dataset class or wherever you're processing your data:
     def __getitem__(self, idx):
-        sentence = self.data[idx]['sentence']
+        tokens = self.data[idx]['tokens']
         labels = self.data[idx]['labels']
 
-        # Tokenize the sentence
-        encoding = self.tokenizer(sentence, padding='max_length', truncation=True, max_length=128, return_tensors='pt')
+        # Print the tokens and their original labels
+        print(f"Original Tokens: {tokens}")
+        print(f"Original Labels: {labels}")
 
-        # Extract token indices and attention mask
-        token_indices = encoding['input_ids'].squeeze(0)
-        attention_mask = encoding['attention_mask'].squeeze(0)
+        # Convert tokens to token indices
+        token_indices = [self.tokenizer.convert_tokens_to_ids(token) for token in tokens]
 
         # Encode the labels
         label_ids = self.label_encoder.transform(labels)
 
-        return torch.tensor(token_indices), torch.tensor(label_ids), torch.tensor(attention_mask)
+        # Print the tokenized indices and their encoded labels
+        print(f"Tokenized Indices: {token_indices}")
+        print(f"Encoded Labels: {label_ids}")
 
+        attention_mask = [1] * len(token_indices)
+
+        return torch.tensor(token_indices), torch.tensor(label_ids), torch.tensor(attention_mask)
 
 
 # Split the data into training and testing datasets
@@ -93,9 +92,8 @@ train_size = int(0.8 * len(dataset))
 test_size = len(dataset) - train_size
 train_dataset, test_dataset = random_split(dataset, [train_size, test_size])
 
-train_dataloader = DataLoader(train_dataset, batch_size=2, collate_fn=collate_fn)
-test_dataloader = DataLoader(test_dataset, batch_size=2, collate_fn=collate_fn)
-
+train_dataloader = DataLoader(train_dataset, batch_size=32, collate_fn=collate_fn)
+test_dataloader = DataLoader(test_dataset, batch_size=32, collate_fn=collate_fn)
 
 # BERT-based Model Definition (using Hugging Face's pre-trained model directly)
 model = BertForTokenClassification.from_pretrained('bert-base-uncased', num_labels=len(label_encoder.classes_))
@@ -108,7 +106,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
 model.to(device)
 
-num_epochs = 3
+num_epochs = 8
 for epoch in range(num_epochs):
     model.train()
     train_loss = 0
