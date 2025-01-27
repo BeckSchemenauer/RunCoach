@@ -1,13 +1,14 @@
 import torch
 import torch.optim as optim
-from sklearn.metrics import accuracy_score
 from torch.utils.data import DataLoader, Dataset, random_split
 from sklearn.preprocessing import LabelEncoder
 import json
 import torch.nn as nn
 from transformers import BertTokenizer, BertForTokenClassification
-from transformers import Trainer, TrainingArguments
 from torch.nn.utils.rnn import pad_sequence
+import warnings
+
+warnings.filterwarnings("ignore", category=UserWarning)
 
 with open('generated_activity_sentences.json', 'r') as file:
     data = json.load(file)
@@ -19,26 +20,33 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 def collate_fn(batch):
     tokens = [item[0] for item in batch]
     labels = [item[1] for item in batch]
+    attention_masks = [item[2] for item in batch]  # Collect attention masks
 
     # Find the maximum sequence length in the batch for padding
     max_len = max([len(t) for t in tokens])
 
-    # Pad tokens and labels to the same length (max_len)
+    # Pad tokens, labels, and attention masks to the same length (max_len)
     padded_tokens = pad_sequence(tokens, batch_first=True, padding_value=tokenizer.pad_token_id)
     padded_labels = pad_sequence(labels, batch_first=True, padding_value=-1)
+    padded_attention_masks = pad_sequence(attention_masks, batch_first=True, padding_value=0)  # Use 0 for padding in attention masks
 
-    # Adjust the lengths if necessary
     if padded_tokens.size(1) > padded_labels.size(1):
         padded_labels = torch.cat(
             [padded_labels, torch.full((padded_labels.size(0), padded_tokens.size(1) - padded_labels.size(1)), -1)],
             dim=1)
+        padded_attention_masks = torch.cat(
+            [padded_attention_masks, torch.full((padded_attention_masks.size(0), padded_tokens.size(1) - padded_attention_masks.size(1)), 0)],
+            dim=1)
     elif padded_tokens.size(1) < padded_labels.size(1):
         padded_tokens = torch.cat(
-            [padded_tokens, torch.full((padded_tokens.size(0), padded_labels.size(1) - padded_tokens.size(1)),
-                                       tokenizer.pad_token_id)],
+            [padded_tokens, torch.full((padded_tokens.size(0), padded_labels.size(1) - padded_tokens.size(1)), tokenizer.pad_token_id)],
+            dim=1)
+        padded_attention_masks = torch.cat(
+            [padded_attention_masks, torch.full((padded_attention_masks.size(0), padded_labels.size(1) - padded_attention_masks.size(1)), 0)],
             dim=1)
 
-    return padded_tokens, padded_labels
+    return padded_tokens, padded_labels, padded_attention_masks  # Return all three: tokens, labels, attention_masks
+
 
 
 # Build vocabulary from training data
@@ -49,7 +57,6 @@ vocab_size = len(vocab)
 label_encoder = LabelEncoder()
 all_labels = [label for item in data for label in item["labels"]]
 label_encoder.fit(all_labels)
-
 
 # Custom Dataset Class
 class SentenceLabelingDataset(Dataset):
@@ -65,11 +72,18 @@ class SentenceLabelingDataset(Dataset):
         sentence = self.data[idx]['sentence']
         labels = self.data[idx]['labels']
 
+        # Tokenize the sentence
         encoding = self.tokenizer(sentence, padding='max_length', truncation=True, max_length=128, return_tensors='pt')
-        token_indices = encoding['input_ids'].squeeze(0)
 
+        # Extract token indices and attention mask
+        token_indices = encoding['input_ids'].squeeze(0)
+        attention_mask = encoding['attention_mask'].squeeze(0)
+
+        # Encode the labels
         label_ids = self.label_encoder.transform(labels)
-        return torch.tensor(token_indices), torch.tensor(label_ids)
+
+        return torch.tensor(token_indices), torch.tensor(label_ids), torch.tensor(attention_mask)
+
 
 
 # Split the data into training and testing datasets
@@ -83,19 +97,8 @@ train_dataloader = DataLoader(train_dataset, batch_size=2, collate_fn=collate_fn
 test_dataloader = DataLoader(test_dataset, batch_size=2, collate_fn=collate_fn)
 
 
-# BERT-based Model Definition
-class BertForTokenClassificationWithHead(nn.Module):
-    def __init__(self, model_name, num_labels):
-        super(BertForTokenClassificationWithHead, self).__init__()
-        self.bert = BertForTokenClassification.from_pretrained(model_name, num_labels=num_labels)
-
-    def forward(self, x):
-        return self.bert(x).logits
-
-
-# Hyperparameters and Model Initialization
-output_dim = len(label_encoder.classes_)  # Number of unique labels
-model = BertForTokenClassificationWithHead('bert-base-uncased', output_dim)
+# BERT-based Model Definition (using Hugging Face's pre-trained model directly)
+model = BertForTokenClassification.from_pretrained('bert-base-uncased', num_labels=len(label_encoder.classes_))
 
 optimizer = optim.Adam(model.parameters(), lr=0.0001)
 
@@ -111,16 +114,20 @@ for epoch in range(num_epochs):
     train_loss = 0
     test_loss = 0
 
-    # Training phase
+    # Training loop
     for batch in train_dataloader:
-        sentences, labels = batch
+        sentences, labels, attention_mask = batch
+        sentences = sentences.to(device)
+        labels = labels.to(device)
+        attention_mask = attention_mask.to(device)  # Move attention mask to the correct device
+
         optimizer.zero_grad()
 
         # Forward pass
-        outputs = model(sentences)
+        outputs = model(sentences, attention_mask=attention_mask)  # Pass attention_mask as well
 
         # Reshape outputs and labels
-        outputs = outputs.view(-1, output_dim)
+        outputs = outputs.logits.view(-1, len(label_encoder.classes_))
         labels = labels.view(-1)
 
         # Ignore padding tokens in loss calculation
@@ -132,15 +139,18 @@ for epoch in range(num_epochs):
 
         train_loss += loss.item()
 
-    # Evaluation phase
-    model.eval()
+    # Evaluation loop
     with torch.no_grad():
         for batch in test_dataloader:
-            sentences, labels = batch
-            outputs = model(sentences)
+            sentences, labels, attention_mask = batch  # Add attention_mask here
+            sentences = sentences.to(device)
+            labels = labels.to(device)
+            attention_mask = attention_mask.to(device)  # Move attention mask to the correct device
+
+            outputs = model(sentences, attention_mask=attention_mask)  # Pass attention_mask as well
 
             # Calculate loss
-            outputs = outputs.view(-1, output_dim)
+            outputs = outputs.logits.view(-1, len(label_encoder.classes_))
             labels = labels.view(-1)
 
             loss = nn.CrossEntropyLoss(ignore_index=-1)(outputs, labels)
@@ -150,43 +160,8 @@ for epoch in range(num_epochs):
     print(
         f"Epoch {epoch + 1}/{num_epochs}, Train Loss: {train_loss / len(train_dataloader)}, Test Loss: {test_loss / len(test_dataloader)}")
 
-model.eval()  # Set model to evaluation mode
-predictions, true_labels = [], []  # Track predictions and true labels for accuracy calculation
+# Save the fine-tuned model
+model.save_pretrained("./tagger_model")
+tokenizer.save_pretrained("./tagger_model")
 
-# Map integer labels back to string labels
-reverse_label_dict = {v: k for k, v in label_encoder.classes_.items()}  # Map from label index to string label
-
-# Collect some input sentences for displaying predictions
-val_sentences = [item['sentence'] for item in data]  # You can adjust this to match the validation set
-val_labels = [item['labels'] for item in data]  # Likewise adjust for validation set labels
-
-with torch.no_grad():  # Disable gradient computation for efficiency
-    for batch_idx, batch in enumerate(test_dataloader):  # Using test_dataloader for evaluation
-        sentences, labels = batch
-        sentences = sentences.to(device)  # Move sentences to the correct device
-        labels = labels.to(device)  # Move true labels to the correct device
-
-        # Forward pass through BERT model
-        outputs = model(sentences)  # Get raw outputs (logits)
-        logits = outputs.view(-1, output_dim)  # Flatten logits
-        preds = torch.argmax(logits, dim=1)  # Get predicted class indices
-
-        # Convert to numpy and store the predictions and true labels
-        predictions.extend(preds.cpu().numpy())
-        true_labels.extend(labels.view(-1).cpu().numpy())
-
-        # Display example sentences with predictions and true labels
-        for i in range(len(preds)):
-            predicted_label = reverse_label_dict[preds[i].item()]  # Convert index to label
-            true_label = reverse_label_dict[labels[i].item()]  # Convert index to label
-            print(f"Sentence: {val_sentences[batch_idx * len(preds) + i]}")
-            print(f"Predicted: {predicted_label}, True: {true_label}")
-            print("-" * 50)
-
-# Calculate accuracy
-accuracy = accuracy_score(true_labels, predictions)  # Calculate overall accuracy
-print(f"Validation Accuracy: {accuracy:.2f}")  # Report accuracy
-
-# Save the model
-torch.save(model.state_dict(), 'bert_model.pth')
 print("Model saved successfully!")
