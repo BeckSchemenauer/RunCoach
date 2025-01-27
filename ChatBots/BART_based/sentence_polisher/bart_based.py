@@ -31,9 +31,19 @@ def get_random_sentences_from_source(source, is_csv=False, column_name=None, num
     return tokenized_sentences[:num_sentences]
 
 # Function to create rough sentences
-def create_rough_sentence(sentence, delete_probability=0.3):
-    words = sentence.split()
-    rough_sentence = [word for word in words if random.random() > delete_probability]
+def create_rough_sentence(sentence, delete_probability=0.3, adjective_boost=0.4):
+    words = nltk.word_tokenize(sentence)
+    pos_tags = nltk.pos_tag(words)  # Get parts of speech for each word
+
+    rough_sentence = []
+    for word, pos in pos_tags:
+        if pos.startswith('JJ'):  # 'JJ', 'JJR', 'JJS' are tags for adjectives
+            if random.random() > delete_probability + adjective_boost:
+                rough_sentence.append(word)
+        else:
+            if random.random() > delete_probability:
+                rough_sentence.append(word)
+
     return ' '.join(rough_sentence)
 
 # Tokenization function
@@ -92,9 +102,9 @@ training_args = TrainingArguments(
     per_device_train_batch_size=32,
     per_device_eval_batch_size=32,
     warmup_steps=500,
-    weight_decay=0.01,
+    weight_decay=0.005,
     evaluation_strategy="epoch",
-    learning_rate=5e-4,
+    learning_rate=1e-3,
     fp16=True
 )
 

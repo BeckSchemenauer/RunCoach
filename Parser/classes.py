@@ -1,24 +1,21 @@
-class Run:
-    def __init__(self, distance, time, pace, elevation, relative_effort, heart_rate):
-        """
-        Initializes a Run object.
-        :param distance: Distance of the run in kilometers or miles (float)
-        :param time: Total time of the run in seconds (float)
-        :param pace: Average pace per kilometer or mile in seconds (float)
-        :param elevation: Elevation gain during the run in meters or feet (float)
-        :param relative_effort: Relative effort of the run (int or float)
-        :param heart_rate: Average heart rate during the run in bpm (int or float)
-        """
+class Activity:
+    def __init__(self, activity, distance, distance_unit, time, pace, pace_unit, elevation, relative_effort, heart_rate):
+        self.activity = activity
         self.distance = distance
+        self.distance_unit = distance_unit
         self.time = time
         self.pace = pace
+        self.pace_unit = pace_unit
         self.elevation = elevation
         self.relative_effort = relative_effort
         self.heart_rate = heart_rate
 
+    def __repr__(self):
+        return f"Activity(activity={self.activity}, distance={self.distance}, unit={self.distance_unit}, time={self.time}, pace={self.pace}, pace_unit={self.pace_unit}, elevation={self.elevation}, relative_effort={self.relative_effort}, heart_rate={self.heart_rate})"
+
 
 class User:
-    def __init__(self, name, gear, height, weight, sex):
+    def __init__(self, name=None, gear=None, height=None, weight=None, sex=None, age=None):
         """
         Initializes a User object.
         :param name: Name of the user (str)
@@ -32,32 +29,29 @@ class User:
         self.height = height
         self.weight = weight
         self.sex = sex
+        self.age = age
         self.runs = []  # List to hold Run objects
 
-    def add_run(self, run):
-        """
-        Adds a Run object to the user's list of runs.
-        :param run: Run object to add (Run)
-        """
-        if isinstance(run, Run):
-            self.runs.append(run)
+    def add_activity(self, activity):
+        if isinstance(activity, Activity):
+            self.runs.append(activity)
         else:
-            raise ValueError("Input must be an instance of the Run class")
+            raise ValueError("Input must be an instance of the Activity class")
 
 
 class Input:
-    def __init__(self, run, intent, gear, other):
+    def __init__(self, activity, intent, gear, other):
         """
         Initializes an Input object.
-        :param run: A Run object (Run)
+        :param activity: An Activity object
         :param intent: The intent of the input, e.g., 'log_run', 'update_gear' (str)
         :param gear: Dictionary containing gear information with keys 'watch' and 'shoes' (dict)
         :param other: Dictionary containing additional information with keys 'name', 'height', 'weight', 'sex' (dict)
         """
-        if not isinstance(run, Run):
-            raise ValueError("'run' must be an instance of the Run class")
+        if not isinstance(activity, Activity):
+            raise ValueError("'run' must be an instance of the Activity class")
 
-        self.run = run
+        self.activity = activity
         self.intent = intent
         self.gear = gear
         self.other = other
