@@ -1,5 +1,3 @@
-from transformers import BertTokenizer
-
 from Parser.activity_tagger import load_model, load_vocabulary_and_encoder, predict_tags, activity_tagger
 from Parser.intent_classifier import load_intent_model, classify_intent
 from Parser.classes import User, Activity, Input
