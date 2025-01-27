@@ -1,8 +1,8 @@
 from transformers import BartTokenizer, BartForConditionalGeneration
 
 # Load the fine-tuned model and tokenizer
-model = BartForConditionalGeneration.from_pretrained('bart-finetuned')
-tokenizer = BartTokenizer.from_pretrained('bart-finetuned')
+model = BartForConditionalGeneration.from_pretrained('bart-expander-finetuned')
+tokenizer = BartTokenizer.from_pretrained('bart-expander-finetuned')
 
 def generate_complete_sentence(rough_sentence):
     # Tokenize and generate
@@ -13,7 +13,7 @@ def generate_complete_sentence(rough_sentence):
     return tokenizer.decode(generated_ids[0], skip_special_tokens=True)
 
 def main():
-    print("Enter an incomplete sentence (type 'exit' to quit):")
+    print("Enter a sentence (type 'exit' to quit):")
     while True:
         rough_sentence = input(">> ").strip()
         if rough_sentence.lower() == "exit":

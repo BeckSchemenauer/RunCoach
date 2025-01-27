@@ -1,20 +1,20 @@
 from transformers import BartTokenizer, BartForConditionalGeneration, Trainer, TrainingArguments
 from datasets import Dataset
-import random
 import pandas as pd
-import nltk
 import torch
-
-#nltk.download('punkt')
 
 # Initialize model and tokenizer
 model_name = 'facebook/bart-base'
 model = BartForConditionalGeneration.from_pretrained(model_name)
 tokenizer = BartTokenizer.from_pretrained(model_name)
 
+
 def load_microsoft_data():
-    # Load the TSV file
-    df = pd.read_csv("ChatBots/BART_based/Release/compressionhistory.tsv", sep="\t")
+    # Load the TSV file and skip malformed rows
+    df = pd.read_csv("Release/compressionhistory.tsv", sep="\t", on_bad_lines='skip')
+
+    # Drop rows where 'Shortening' is an integer
+    df = df[df["Shortening"].apply(lambda x: not isinstance(x, (int, float)))]
 
     # Calculate the sum of AverageGrammar and AverageMeaning
     df["GrammarMeaningSum"] = df["AverageGrammar"] + df["AverageMeaning"]
@@ -25,30 +25,34 @@ def load_microsoft_data():
     # Select the top 512 rows
     top_512 = df_sorted.head(512)
 
-    # Create the new dataset
-    data = []
+    # Create a list of dictionaries for the dataset
+    data = [
+        {"short": row["Shortening"], "long": row["Source"]}
+        for _, row in top_512.iterrows()
+    ]
 
-    for _, row in top_512.iterrows():
-        data.append({"Text": row["Shortening"], "Label": "short"})
-        data.append({"Text": row["Source"], "Label": "long"})
+    # Convert the data into a Hugging Face Dataset
+    return Dataset.from_list(data)
 
-    # Convert the new dataset to a DataFrame
-    new_dataset = pd.DataFrame(data)
 
-    # Save to a new file if needed
-    #new_dataset.to_csv("processed_dataset.csv", index=False)
+# Load the dataset
+dataset = load_microsoft_data()
 
-    return new_dataset
+# Split into train and eval sets
+train_test_split = dataset.train_test_split(test_size=0.2)
+train_dataset = train_test_split['train']
+eval_dataset = train_test_split['test']
 
 
 # Tokenization function
 def tokenize_data(examples):
-    input_text = ["short sentence: " + rough for rough in examples['short']]
+    input_text = ["short sentence: " + s for s in examples['short']]
     target_text = examples['long']
 
     input_encodings = tokenizer(input_text, truncation=True, padding='max_length', max_length=128)
     target_encodings = tokenizer(target_text, truncation=True, padding='max_length', max_length=128)
 
+    # Replace padding token ID with -100 for labels
     target_encodings['labels'] = [
         [(label if label != tokenizer.pad_token_id else -100) for label in labels]
         for labels in target_encodings['input_ids']
@@ -61,24 +65,22 @@ def tokenize_data(examples):
     }
 
 
-# Split into train and eval sets
-train_dataset, eval_dataset = train_dataset.train_test_split(test_size=0.2).values()
-
 # Tokenize datasets
-train_dataset = train_dataset.map(tokenize_data, batched=True)
-eval_dataset = eval_dataset.map(tokenize_data, batched=True)
+train_dataset = train_dataset.map(tokenize_data, batched=True, remove_columns=['short', 'long'])
+eval_dataset = eval_dataset.map(tokenize_data, batched=True, remove_columns=['short', 'long'])
 
 # Training arguments
 training_args = TrainingArguments(
-    dataloader_pin_memory=True,
-    num_train_epochs=4,
+    output_dir='./results',
+    num_train_epochs=3,
     per_device_train_batch_size=32,
     per_device_eval_batch_size=32,
     warmup_steps=500,
     weight_decay=0.01,
     evaluation_strategy="epoch",
     learning_rate=5e-4,
-    fp16=True
+    fp16=True,
+    dataloader_pin_memory=True
 )
 
 # Initialize Trainer
@@ -89,8 +91,9 @@ trainer = Trainer(
     eval_dataset=eval_dataset
 )
 
+# Check for GPU availability
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(device)
+print(f"Using device: {device}")
 model.to(device)
 
 # Train and save model
