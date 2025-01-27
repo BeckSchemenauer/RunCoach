@@ -2,90 +2,92 @@ import torch
 from transformers import BertTokenizer, BertForTokenClassification
 import json
 from sklearn.preprocessing import LabelEncoder
+from nltk.tokenize import word_tokenize
 import nltk
 
-nltk.download('punkt')  # Ensure that necessary NLTK resources are downloaded
-from nltk.tokenize import word_tokenize
+# Download NLTK resources
+nltk.download('punkt')
 
-# Load the fine-tuned model and tokenizer
+# Load the model and tokenizer
 MODEL_PATH = "./tagger_model"
 tokenizer = BertTokenizer.from_pretrained(MODEL_PATH)
 model = BertForTokenClassification.from_pretrained(MODEL_PATH)
 
-# Load the activity sentences data
+# Load the data and fit the label encoder
 with open('all_purpose.json', 'r') as file:
     data = json.load(file)
 
-# Label Encoder for labels
 label_encoder = LabelEncoder()
 all_labels = [label for item in data for label in item["labels"]]
 label_encoder.fit(all_labels)
 
-# Set the model to evaluation mode
+# Set up the model
 model.eval()
-
-# Move model to the correct device (GPU if available, else CPU)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 
 def split_colon_tokens(sentence):
-    # Split tokens containing a colon (e.g., "5:00" -> ["5", ":", "00"])
-    words = sentence.split()
+    """Splits tokens containing colons into separate parts, keeping the colon as a separate token."""
     split_words = []
-
-    for word in words:
+    for word in sentence.split():
         if ':' in word:
-            # Split by colon and keep the parts
             parts = word.split(':')
-            split_words.extend(parts)  # Add the parts separately
+            for i, part in enumerate(parts):
+                if part:  # Add the part if it's not empty
+                    split_words.append(part)
+                if i < len(parts) - 1:  # Add a colon after each part except the last
+                    split_words.append(':')
         else:
-            split_words.append(word)  # Keep the word as is
+            split_words.append(word)
     return ' '.join(split_words)
 
 
+
 def predict_tags(sentence):
-    # First, split tokens containing a colon
+    """Predicts tags for a given sentence."""
+    # Preprocess and tokenize the sentence
     sentence = split_colon_tokens(sentence)
-
-    # Tokenize the sentence using NLTK
     nltk_tokens = word_tokenize(sentence)
-    print(f"NLTK Tokens: {nltk_tokens}")
+    print(f"Tokens: {nltk_tokens}")
 
-    # Convert NLTK tokens into token IDs using the BERT tokenizer
-    encoding = tokenizer(nltk_tokens, padding='max_length', truncation=True, max_length=128, is_split_into_words=True,
-                         return_tensors='pt')
+    # Encode tokens using the BERT tokenizer
+    encoding = tokenizer(
+        nltk_tokens, padding='max_length', truncation=True, max_length=128,
+        is_split_into_words=True, return_tensors='pt'
+    )
 
-    # Get input IDs and attention mask
     input_ids = encoding['input_ids'].to(device)
     attention_mask = encoding['attention_mask'].to(device)
 
-    # Forward pass through the model
+    # Run the model
     with torch.no_grad():
-        outputs = model(input_ids, attention_mask=attention_mask)
+        logits = model(input_ids, attention_mask=attention_mask).logits
 
-    # Get the predicted token class indices (logits to labels)
-    predictions = torch.argmax(outputs.logits, dim=-1).squeeze(0)
+    # Get predicted class indices and decode labels
+    predictions = torch.argmax(logits, dim=-1).squeeze(0).cpu().numpy()
+    predicted_labels = label_encoder.inverse_transform(predictions)
 
-    # Decode the token labels
-    predicted_labels = label_encoder.inverse_transform(predictions.cpu().numpy())
+    # Remove special tokens and align predictions with tokens
+    tokens = tokenizer.convert_ids_to_tokens(input_ids.squeeze(0).cpu().numpy())
+    tokens = [token for token in tokens if token not in [tokenizer.pad_token, tokenizer.cls_token, tokenizer.sep_token]]
 
-    # Decode tokens back to words (remove padding and special tokens)
-    decoded_tokens = tokenizer.convert_ids_to_tokens(input_ids.squeeze(0).cpu().numpy())
-    decoded_tokens = [token for token in decoded_tokens if
-                      token not in [tokenizer.pad_token, tokenizer.cls_token, tokenizer.sep_token]]
+    # Adjust labels: Shift predicted labels by one earlier
+    predicted_labels = predicted_labels[:len(tokens)]  # Ensure predictions match the number of tokens
+    if len(predicted_labels) > 1:  # Ensure there's more than one label to shift
+        predicted_labels = predicted_labels[1:]
 
-    # Print the sentence with the predicted labels
-    print("\nPredicted tags for sentence: ")
-    for token, label in zip(decoded_tokens, predicted_labels):
+    # Print results
+    print("\nPredicted tags:")
+    for token, label in zip(tokens, predicted_labels):
         print(f"{token}: {label}")
 
 
-# Terminal I/O loop to input multiple sentences
-while True:
-    sentence = input("\nEnter a sentence (or type 'exit' to quit): ")
-    if sentence.lower() == 'exit':
-        print("Exiting...")
-        break
-    else:
+# Terminal I/O for predictions
+if __name__ == "__main__":
+    while True:
+        sentence = input("\nEnter a sentence (or type 'exit' to quit): ")
+        if sentence.lower() == 'exit':
+            print("Exiting...")
+            break
         predict_tags(sentence)

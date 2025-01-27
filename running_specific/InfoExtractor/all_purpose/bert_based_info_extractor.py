@@ -67,8 +67,8 @@ class SentenceLabelingDataset(Dataset):
         labels = self.data[idx]['labels']
 
         # Print the tokens and their original labels
-        print(f"Original Tokens: {tokens}")
-        print(f"Original Labels: {labels}")
+        # print(f"Original Tokens: {tokens}")
+        # print(f"Original Labels: {labels}")
 
         # Convert tokens to token indices
         token_indices = [self.tokenizer.convert_tokens_to_ids(token) for token in tokens]
@@ -77,8 +77,8 @@ class SentenceLabelingDataset(Dataset):
         label_ids = self.label_encoder.transform(labels)
 
         # Print the tokenized indices and their encoded labels
-        print(f"Tokenized Indices: {token_indices}")
-        print(f"Encoded Labels: {label_ids}")
+        # print(f"Tokenized Indices: {token_indices}")
+        # print(f"Encoded Labels: {label_ids}\n")
 
         attention_mask = [1] * len(token_indices)
 
@@ -92,13 +92,13 @@ train_size = int(0.8 * len(dataset))
 test_size = len(dataset) - train_size
 train_dataset, test_dataset = random_split(dataset, [train_size, test_size])
 
-train_dataloader = DataLoader(train_dataset, batch_size=32, collate_fn=collate_fn)
-test_dataloader = DataLoader(test_dataset, batch_size=32, collate_fn=collate_fn)
+train_dataloader = DataLoader(train_dataset, batch_size=128, collate_fn=collate_fn)
+test_dataloader = DataLoader(test_dataset, batch_size=128, collate_fn=collate_fn)
 
 # BERT-based Model Definition (using Hugging Face's pre-trained model directly)
 model = BertForTokenClassification.from_pretrained('bert-base-uncased', num_labels=len(label_encoder.classes_))
 
-optimizer = optim.Adam(model.parameters(), lr=0.0001)
+optimizer = optim.Adam(model.parameters(), lr=0.00002)
 
 # Training and Evaluation Loop
 
